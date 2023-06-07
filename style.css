@@ -25,28 +25,24 @@ header img{
     z-index: 1;
 }
 
-.p1{
+h2{
     writing-mode: vertical-rl;
     z-index: 1;
     position:absolute;
-    top: 172px;
-    left:208px;
     font-size: 40px;
     font-weight: bold;
     color: #fbfbfb;
     letter-spacing: 10px;
 }
 
-.p2{
-    writing-mode: vertical-rl;
-    z-index: 1;
-    position:absolute;
+.h2-1{
+    top: 172px;
+    left:208px;
+}
+
+.h2-2{
     top:285px;
     left:118px;
-    font-size: 40px;
-    font-weight: bold;
-    color: #fbfbfb;
-    letter-spacing: 10px;
 }
 
 .decoration-rect1{
