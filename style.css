@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style:none;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+header{
+    height:851px;
+}
+
+.bg-rect{
+	width: 483px;
+	height: 851px;
+    border-radius: 10px;
+    background: #95C3D7;
+    z-index:-1;
+}
+
+header img{
+    position:absolute;
+    top:63px;
+    left:363px;
+    z-index: 1;
+}
+
+.p1{
+    writing-mode: vertical-rl;
+    z-index: 1;
+    position:absolute;
+    top: 172px;
+    left:208px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #fbfbfb;
+    letter-spacing: 10px;
+}
+
+.p2{
+    writing-mode: vertical-rl;
+    z-index: 1;
+    position:absolute;
+    top:285px;
+    left:118px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #fbfbfb;
+    letter-spacing: 10px;
+}
+
+.decoration-rect1{
+    width: 3px;
+    height: 433px;
+    border:solid #fbfbfb;
+    z-index: 1;
+    border-radius: 10px;
+    background-color: #fbfbfb;
+    position:absolute;
+    top:162px;
+    left:193px;
+}
+
+.decoration-circle1{
+    width: 3px;
+	height: 3px;
+	border-radius: 10px;
+	background: #fbfbfb;
+    position:absolute;
+    top:598px;
+    left:193px;
+}
+
+.decoration-rect2{
+    width: 3px;
+    height: 360px;
+    border:solid #fbfbfb;
+    z-index: 1;
+    border-radius: 10px;
+    background-color: #fbfbfb;
+    position:absolute;
+    top:274px;
+    left:103px;
+}
+
+.decoration-circle2{
+    width: 3px;
+	height: 3px;
+	border-radius: 10px;
+	background: #fbfbfb;
+    position:absolute;
+    top:267px;
+    left:103px;
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    padding: 30px 30px;
+    position:absolute;
+    /*top:0;*/
+    width: 100%;
+    top:730px;
+    z-index: 1;
+    
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav li{
+    margin:40px;
+}
+
+nav a{
+    color: #253d58;
+    font-size: 19px;
+    font-weight:bold;
+    text-decoration:none;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+footer{
+    margin-top: 20px;
+    width: 100%;
+    background-color: #253d58;
+    padding: 20px;
+    /*position:absolute;*/
+    bottom:0;
+}
+
+footer p{
+    color: #fbfbfb;
+    text-align: center;
+    letter-spacing:2px;
+    font-family: 'Roboto', sans-serif;
+}
