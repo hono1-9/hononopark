@@ -119,6 +119,29 @@ nav a{
     font-family: 'Noto Sans JP', sans-serif;
 }
 
+.marker{
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+  }
+
+  .marker::after{
+    content:"";
+    width: 0%;    
+    height: 8px;
+    background: #ffb580;
+    opacity: 0.8;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    z-index: -1;
+    transition: all .2s;  
+  }	
+
+  .marker:hover::after{
+    width: 100%;    
+  }
+
 footer{
     margin-top: 20px;
     width: 100%;
