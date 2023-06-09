@@ -229,7 +229,8 @@ nav a{
     display: flex;
     position: relative;
     display: inline-block;
-    padding: 10px;
+    /*text-align: center;*/
+    /*padding: 10px;*/
     left: 50%;
   }
 
@@ -259,7 +260,7 @@ nav a{
     font-size: 19px;
 }
 
-.title-box img{
+.left-title-box img{
     position: relative; /*absolute?*/
     left:1129px;
     text-align: center;
@@ -267,13 +268,11 @@ nav a{
 
 .s-left-title h5{
     writing-mode: vertical-lr;
-    /*position: absolute;*/
-    right: 311px;
     font-size: 50px;
     
 }
 
-.title-decoration{
+.left-title-decoration{
     width: 35px;
     height: 476px;
     border: 0px solid;
@@ -284,18 +283,18 @@ nav a{
     top: 0px;
 }
 
-.textbox-purpose{
+.left-textbox-purpose{
     position: absolute;
     left: 1180px;
 }
 
-.textbox-name{
+.left-textbox-name{
     position: relative;
     left: 1052px;
     top: 18px;
 }
 
-.parkname {
+.left-parkname {
     writing-mode: vertical-rl;
     /*position: absolute;*/
     font-size: 50px;
@@ -304,7 +303,7 @@ nav a{
     /*left: 1052px;*/
 }
 
-.location img{
+.left-location img{
     position: relative;
     left: 853px;
     z-index: 2;
@@ -331,16 +330,95 @@ nav a{
     color: #D0AC7F;
 }
 
-.detail{
+.left-detail{
     text-align: left;
     position: relative;
     left: 173px;
     top: -70px;
 }
 
+/*ここから偶数番*/
+.right-title-box img{
+    position: relative; /*absolute?*/
+    left:180px;
+    text-align: center;
+}
+
+.s-right-title h5{
+    writing-mode: vertical-lr;
+    font-size: 50px;
+    
+}
+
+.right-title-decoration{
+    width: 35px;
+    height: 476px;
+    border: 0px solid;
+    position: relative;
+    left: 244px;
+    background-color: #D0E79D;
+    opacity: 0.5;
+    top: 0px;
+}
+
+.right-textbox-purpose{
+    position: absolute;
+    left: 230px;
+}
+
+.right-textbox-name{
+    position: relative;
+    left: 337px;
+    top: 18px;
+}
+
+.right-parkname {
+    writing-mode: vertical-rl;
+    /*position: absolute;*/
+    font-size: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    /*left: 1052px;*/
+}
+
+.right-location img{
+    position: relative;
+    left: 853px;
+    z-index: 2;
+    top: 580px;
+}
+
+
+
+.sr1-photo img{
+    z-index: -1;
+    position: relative;
+    left: 490px;
+    top: -80px;
+}
+
+.sr1-photo h4{
+    font-size: 120px;
+    font-weight: bold;
+    z-index: 1;
+    position: relative;
+    left: 1201px;
+    text-stroke: 3px #fbfbfb;
+    -webkit-text-stroke: 3px #fbfbfb;
+    color: #009944;
+}
+
+.right-detail{
+    text-align: left;
+    position: relative;
+    left: 485px;
+    top: -70px;
+}
+/*ここまで偶数番*/
+
 .info p{
     display: inline-block;
-    /*font-size: 25px;*?
+    /*font-size: 25px;*/
 }
 
 #bold{
@@ -356,7 +434,32 @@ nav a{
 }
 /*ここまで詳細*/
 
-.ashirai{
+/*ここから公園紹介②*/
+.info2{
+    padding:0 170px;
+    text-align: center;
+}
+
+.slr-photo-box{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slr-photo{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.slr-photo p{
+    margin-top: 20px;
+}
+
+/*ここまで公園紹介②*/
+
+.decoration{
+    margin-top: 60px;
     text-align: center;
 }
 
