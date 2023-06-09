@@ -269,6 +269,7 @@ nav a{
 .s-left-title h5{
     writing-mode: vertical-lr;
     font-size: 50px;
+    text-orientation: upright; /*効いたけれど、若干ずれている*/
     
 }
 
@@ -281,11 +282,13 @@ nav a{
     background-color: #D0AC7F;
     opacity: 0.5;
     top: 0px;
+    z-index: 0;
 }
 
 .left-textbox-purpose{
     position: absolute;
     left: 1180px;
+    z-index: 1;
 }
 
 .left-textbox-name{
@@ -297,10 +300,11 @@ nav a{
 .left-parkname {
     writing-mode: vertical-rl;
     /*position: absolute;*/
-    font-size: 50px;
     font-size: 40px;
     font-weight: bold;
     /*left: 1052px;*/
+    width: 40px;
+    margin: 0;
 }
 
 .left-location img{
@@ -309,8 +313,6 @@ nav a{
     z-index: 2;
     top: 580px;
 }
-
-
 
 .sl1-photo img{
     z-index: -1;
@@ -328,6 +330,7 @@ nav a{
     text-stroke: 3px #fbfbfb;
     -webkit-text-stroke: 3px #fbfbfb;
     color: #D0AC7F;
+    
 }
 
 .left-detail{
@@ -359,11 +362,13 @@ nav a{
     background-color: #D0E79D;
     opacity: 0.5;
     top: 0px;
+    z-index: 0;
 }
 
 .right-textbox-purpose{
     position: absolute;
     left: 230px;
+    z-index: 1;
 }
 
 .right-textbox-name{
@@ -375,20 +380,18 @@ nav a{
 .right-parkname {
     writing-mode: vertical-rl;
     /*position: absolute;*/
-    font-size: 50px;
     font-size: 40px;
     font-weight: bold;
     /*left: 1052px;*/
+    width: 40px;
 }
 
 .right-location img{
     position: relative;
-    left: 853px;
+    left: 510px;
     z-index: 2;
-    top: 580px;
+    top: 590px;
 }
-
-
 
 .sr1-photo img{
     z-index: -1;
@@ -540,24 +543,40 @@ nav a{
 .info-title{
     font-size: 25px;
     font-weight: bold;
-    margin-top: 41px;
     position: relative;
     left: 210px;
-    top:14053;
+    top:43px;
 }
 
 .i-infoes1{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    /*margin-top: 74px;
+    margin-bottom: 71px;*/
+    margin: 74px 256px 71px 256px;
+}
+
+.i-infoes2{
+    display: flex;
+    justify-content: space-between;
+    margin: 74px 256px 71px 256px;
 }
 
 
 
-.i-info{
+.i-info1{
     display: block;
     line-height: 2.5;
     float: left;
-    margin: 0px 45px;
+    /*margin: 0px 45px;*/
+    /*width: 25%;*/
+}
+
+.i-info2{
+    display: block;
+    line-height: 2.5;
+    float: left;
+    /*margin: 0px 23px;*/
     /*width: 25%;*/
 }
 
