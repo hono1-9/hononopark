@@ -270,20 +270,38 @@ nav a{
     writing-mode: vertical-lr;
     font-size: 50px;
     text-orientation: upright; /*効いたけれど、若干ずれている*/
+    letter-spacing: 1.4rem;
     
 }
 
 .left-title-decoration{
-    width: 35px;
-    height: 476px;
     border: 0px solid;
     position: relative;
     left: 1196px;
-    background-color: #D0AC7F;
     opacity: 0.5;
-    top: 0px;
+    top: -0px;
     z-index: 0;
+    height: 490px;
 }
+
+.deco1{
+    background-color: #D0AC7F;
+    width: 35px;
+    height: 476px;
+}
+
+.deco3{
+    background-color: #00AAEE;
+    width: 35px;
+    height: 476px;
+}
+
+.deco5{
+    background-color: #FF7B74;
+    width: 35px;
+    height: 476px;
+}
+
 
 .left-textbox-purpose{
     position: absolute;
@@ -314,11 +332,14 @@ nav a{
     top: 580px;
 }
 
+.sl-box{
+    position: relative;
+    top: -607px;
+}
+
 .sl1-photo img{
     z-index: -1;
-    position: relative;
-    left: 170px;
-    top: -80px;
+    
 }
 
 .sl1-photo h4{
@@ -327,10 +348,23 @@ nav a{
     z-index: 1;
     position: relative;
     left: 104px;
-    text-stroke: 3px #fbfbfb;
-    -webkit-text-stroke: 3px #fbfbfb;
+    text-shadow:
+    3px 3px 3px #fbfbfb, -3px -3px 3px #fbfbfb,
+   -3px 3px 3px #fbfbfb,  3px -3px 3px #fbfbfb,
+    3px 0px 3px #fbfbfb, -3px -0px 3px #fbfbfb,
+    0px 3px 3px #fbfbfb,  0px -3px 3px #fbfbfb;
+}
+
+.num1{
     color: #D0AC7F;
-    
+}
+
+.num3{
+    color: #00AAEE;
+}
+
+.num5{
+    color: #FF7B74;
 }
 
 .left-detail{
@@ -338,6 +372,35 @@ nav a{
     position: relative;
     left: 173px;
     top: -70px;
+}
+
+.left-modal a{
+    position: relative;
+    left: 180px;
+    top: -80px;
+}
+
+/*モーダル中央寄せ*/
+.modaal-content-container{
+    text-align: center;
+}
+/*ここまでモーダル中央寄せ*/
+
+/*モーダルの×の色*/
+.modaal-close:focus:after,
+.modaal-close:focus:before,
+.modaal-close:hover:after,
+.modaal-close:hover:before {
+    background: #253d58;
+}
+/*ここまでモーダルの×の色*/
+
+
+
+.left-stars {
+    position: relative;
+    top: -100px;
+    left: 300px;
 }
 
 /*ここから偶数番*/
@@ -350,19 +413,34 @@ nav a{
 .s-right-title h5{
     writing-mode: vertical-lr;
     font-size: 50px;
-    
+    letter-spacing: 1.4rem;
 }
 
 .right-title-decoration{
-    width: 35px;
-    height: 476px;
     border: 0px solid;
     position: relative;
     left: 244px;
-    background-color: #D0E79D;
     opacity: 0.5;
     top: 0px;
     z-index: 0;
+}
+
+.deco2{
+    background-color: #009944;
+    width: 35px;
+    height: 476px;
+}
+
+.deco4{
+    background-color: #FEDD50;
+    width: 35px;
+    height: 476px;
+}
+
+.deco6{
+    background-color: #FF6100;
+    width: 35px;
+    height: 476px;
 }
 
 .right-textbox-purpose{
@@ -395,9 +473,6 @@ nav a{
 
 .sr1-photo img{
     z-index: -1;
-    position: relative;
-    left: 490px;
-    top: -80px;
 }
 
 .sr1-photo h4{
@@ -406,9 +481,24 @@ nav a{
     z-index: 1;
     position: relative;
     left: 1201px;
-    text-stroke: 3px #fbfbfb;
-    -webkit-text-stroke: 3px #fbfbfb;
+    text-shadow:
+            3px 3px 3px #fbfbfb, -3px -3px 3px #fbfbfb,
+           -3px 3px 3px #fbfbfb,  3px -3px 3px #fbfbfb,
+            3px 0px 3px #fbfbfb, -3px -0px 3px #fbfbfb,
+            0px 3px 3px #fbfbfb,  0px -3px 3px #fbfbfb;
+    
+}
+
+.num2{
     color: #009944;
+}
+
+.num4{
+    color: #FEDD50;
+}
+
+.num6{
+    color: #FF6100;
 }
 
 .right-detail{
@@ -416,6 +506,18 @@ nav a{
     position: relative;
     left: 485px;
     top: -70px;
+}
+
+.right-modal a{
+    position: relative;
+    left: 490px;
+    top: -80px;
+}
+
+.right-stars {
+    position: relative;
+    top: -100px;
+    left: 300px;
 }
 /*ここまで偶数番*/
 
@@ -430,11 +532,6 @@ nav a{
     color: #252525;
 }
 
-.stars {
-    position: relative;
-    left:100px;  /*幅合わない*/
-    top:-15px;
-}
 /*ここまで詳細*/
 
 /*ここから公園紹介②*/
@@ -465,6 +562,8 @@ nav a{
     margin-top: 60px;
     text-align: center;
 }
+
+
 
 #caution{
     margin-bottom: 192px;
@@ -538,6 +637,10 @@ nav a{
 .i-box a{
     text-decoration: none;
     color: #fbfbfb;
+}
+
+.i-box a:hover{
+    color: #252525;
 }
 
 .info-title{
