@@ -1,120 +1,124 @@
-        <!DOCTYPE html>
-        <html lang="ja">
-        <head>
-            <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital@1&display=swap" rel="stylesheet">
-            <link rel="stylesheet" href="modaal.min.css">
-            <link rel="stylesheet" href="style.css">
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-            <script src="/js/modaal.min.js"></script>
-            <script src="js/main.js"></script>
-            <title>おすすめの公園紹介サイト</title>
-        </head>
-        <body>
-            <header>
-                <div class="header-title">
-                <div class="bg-rect"></div>
-                <h2 class="h2-1">公園の楽しみ方は、</h2>
-                <h2 class="h2-2">ひとつじゃない</h2>
-                <div class="decoration-rect1"></div>
-                <div class="decoration-circle1"></div>
-                <div class="decoration-rect2"></div>
-                <div class="decoration-circle2"></div>
-                <img src="images/header.png" alt="">
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital@1&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="modaal.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="/js/modaal.min.js"></script>
+    <script src="js/main.js"></script>
+    <title>おすすめの公園紹介サイト</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-title">
+            <div class="bg-rect"></div>
+            <h2 class="h2-1">公園の楽しみ方は、</h2>
+            <h2 class="h2-2">ひとつじゃない</h2>
+            <div class="decoration-rect1"></div>
+            <div class="decoration-circle1"></div>
+            <div class="decoration-rect2"></div>
+            <div class="decoration-circle2"></div>
+            <img src="images/header.png" alt="">
+        </div>
+
+        <nav class="header-nav">
+            <ul>
+                <li><span class="marker"><a href="#home">ホーム</a></span></li>
+                <li><span class="marker"><a href="#attraction">公園の魅力</a></span></li>
+                <li><span class="marker"><a href="#suggest">目的別のおすすめ</a></span></li>
+                <li><span class="marker"><a href="#caution">気をつけること</a></span></li>
+                <li><span class="marker"><a href="#season">季節ごとのおすすめ</a></span></li>
+                <li><span class="marker"><a href="#japan">都外のおすすめ</a></span></li>
+                <li><span class="marker"><a href="#last">さいごに</a></span></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="attraction" id="attraction">
+        <div class="section-title">
+            <div class="half-circle"><img src="images/section1-title.png" alt=""></div>
+            <div class="section-rec">
+                <h3 class="heading">公園の魅力</h3>
             </div>
 
-                <nav class="header-nav">
-                    <ul>
-                        <li><span class="marker"><a href="#home">ホーム</a></span></li>
-                        <li><span class="marker"><a href="#attraction">公園の魅力</a></span></li>
-                        <li><span class="marker"><a href="#suggest">目的別のおすすめ</a></span></li>
-                        <li><span class="marker"><a href="#caution">気をつけること</a></span></li>
-                        <li><span class="marker"><a href="#season">季節ごとのおすすめ</a></span></li>
-                        <li><span class="marker"><a href="#japan">都外のおすすめ</a></span></li>
-                        <li><span class="marker"><a href="#last">さいごに</a></span></li>
-                    </ul>
-                </nav>
-            </header>
-
-            <section class="attraction" id="attraction">
-                <div class="section-title">
-                    <div class="half-circle"><img src="images/section1-title.png" alt=""></div>
-                    <div class="section-rec">
-                        <h3 class="heading">公園の魅力</h3>
-                    </div>
-
-                    <div class="icons">
-                        <div class="section1-icon-top">
-                            <img src="images/section1-relax.png" alt="">
-                            <p>のんびりできる</p>
-                        </div>
-                        <div class="section1-icon-bottom">
-                            <img src="images/section1-book.png" alt="">
-                            <p>ストレス解消</p>
-                        </div>
-                        <div class="section1-icon-bottom">
-                            <img src="images/section1-free.png" alt="">
-                            <p>自由に過ごすことができる</p>
-                        </div>
-                        <div class="section1-icon-top">
-                            <img src="images/section1-season.png" alt="">
-                            <p>季節を感じることができる</p>
-                        </div>
-                    </div>
+            <div class="icons">
+                <div class="section1-icon-top">
+                    <img src="images/section1-relax.png" alt="">
+                    <p>のんびりできる</p>
                 </div>
-            </section>
+                <div class="section1-icon-bottom">
+                    <img src="images/section1-book.png" alt="">
+                    <p>ストレス解消</p>
+                </div>
+                <div class="section1-icon-bottom">
+                    <img src="images/section1-free.png" alt="">
+                    <p>自由に過ごすことができる</p>
+                </div>
+                <div class="section1-icon-top">
+                    <img src="images/section1-season.png" alt="">
+                    <p>季節を感じることができる</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-            <section class="suggest" id="suggest">
-                <div class="section-title">
-                    <div class="half-circle"><img src="images/section2-title.png" alt=""></div>
-                    <div class="section-rec">
-                        <h3 class="heading">目的別のおすすめ</h3>
-                    </div>
-                </div>
-                <div class="icons">
-                    <div class="s-point">
-                        <a href="#bbq"><img src="images/section2-bbq.png" alt=""></a>
-                        <p>BBQができる</p>
-                    </div>
-                    <div class="s-point">
-                        <a href="#relax"><img src="images/section2-relax.png" alt=""></a>
-                        <p>のんびりできる</p>
-                    </div>
-                    <div class="s-point">
-                        <a href="#swing"><img src="images/section2-swing.png" alt=""></a>
-                        <p>こどもが楽しい</p>
-                    </div>
-                    <div class="s-point">
-                        <a href="#shoes"><img src="images/section2-shoes.png" alt=""></a>
-                        <p>運動ができる</p>
-                    </div>
-                    <div class="s-point">
-                        <a href="#photo"><img src="images/section2-photo.png" alt=""></a>
-                        <p>写真を撮りたくなる</p>
-                    </div>
-                    <div class="s-point">
-                        <a href="#sun"><img src="images/section2-sun.png" alt=""></a>
-                        <p>1日中楽しめる</p>
-                    </div>
-                </div>
-                <div class="arrow arrow-bottom"></div>
+    <section class="suggest" id="suggest">
+        <div class="section-title">
+            <div class="half-circle"><img src="images/section2-title.png" alt=""></div>
+            <div class="section-rec">
+                <h3 class="heading">目的別のおすすめ</h3>
+            </div>
+        </div>
+        <div class="icons">
+            <div class="s-point">
+                <a href="#bbq"><img src="images/section2-bbq.png" alt=""></a>
+                <p>BBQができる</p>
+            </div>
+            <div class="s-point">
+                <a href="#relax"><img src="images/section2-relax.png" alt=""></a>
+                <p>のんびりできる</p>
+            </div>
+            <div class="s-point">
+                <a href="#swing"><img src="images/section2-swing.png" alt=""></a>
+                <p>こどもが楽しい</p>
+            </div>
+            <div class="s-point">
+                <a href="#shoes"><img src="images/section2-shoes.png" alt=""></a>
+                <p>運動ができる</p>
+            </div>
+            <div class="s-point">
+                <a href="#photo"><img src="images/section2-photo.png" alt=""></a>
+                <p>写真を撮りたくなる</p>
+            </div>
+            <div class="s-point">
+                <a href="#sun"><img src="images/section2-sun.png" alt=""></a>
+                <p>1日中楽しめる</p>
+            </div>
+        </div>
+        <div class="arrow arrow-bottom"></div>
 
         <!--ここから BBQ-->
         <div class="s-left">
             <div class="lead" id="bbq">
                 <p>夏の定番BBQ。<br>
                     ここでは手ぶらで気軽にBBQが楽しめる公園を紹介します。</p>
-                </div>
+            </div>
 
             <div class="s-left-title">
                 <div class="left-title-box">
                     <img src="images/bbq-title-icon.png" alt="">
                     <div class="left-textbox-purpose">
-                        <h5 >BBQができる</h5>
+                        <h5>BBQができる</h5>
                     </div>
                     <div class="left-textbox-name">
                         <p class="left-parkname">昭和記念公園</p>
@@ -122,34 +126,139 @@
                     <div class="left-title-decoration">
                         <div class="deco1"></div>
                     </div>
-                    
+
                 </div>
+            </div>
+
+            <div class="sl1-photo">
+                <h4 class="num1">01</h4>
+                <div class="left-location">
+                    <a href="https://www.showakinen-koen.jp/" target="_blank"><img src="images/suggest-location.png"
+                            alt=""></a>
                 </div>
-                
-                <div class="sl1-photo">
-                    <h4 class="num1">01</h4>
-                    <div class="left-location">
-                        <a href="https://www.showakinen-koen.jp/" target="_blank"><img src="images/suggest-location.png" alt=""></a>
+                <!--モーダル始まり-->
+                <div class="left-modal">
+                    <div class="modal-box">
+                        <a href="#news1" class="modal-button">
+                            <img src="images/bbq-1.png" alt="" class="banner">
+                        </a>
+                    </div>
+                    <div id="news1" style="display:none" class="news">
+                        <img src="images/bbq-1.png" alt="" class="banner">
+                        <h3>モバイルオーダーシステムがスタートしました</h3>
+                        <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
+                    </div>
+                </div>
+                <!--モーダル終わり-->
+                <p class="left-detail"><span id="bold">おすすめポイント：</span>BBQの持ち込みもOK<br>
+                    <span id="bold">おすすめ度：</span>
+                </p>
+                <div class="left-stars">
+                    <img src="images/stars.png" alt="">
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--ここまで詳細-->
+        <!--ここから公園紹介②-->
+        <div class="info2">
+            <div class="slr-photo-box">
+                <div class="slr-photo">
+                    <!--モーダル始まり-->
+                    <div class="modal">
+                        <div class="modal-box">
+                            <a href="#news2" class="modal-button">
+                                <img src="images/bbq-2.png" alt="" class="banner">
+                            </a>
                         </div>
-                        <!--モーダル始まり-->
-                        <div class="left-modal">
-                            <div class="modal-box">
-                                <a href="#news1" class="modal-button">
-                                    <img src="images/bbq-1.png" alt="" class="banner">
-                                </a>
-                                </div>
-                                <div id="news1" style="display:none" class="news">
-                                    <img src="images/bbq-1.png" alt="" class="banner">
-                                    <h3>モバイルオーダーシステムがスタートしました</h3>
-                                    <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
-                                </div>
-                            </div>
-                            <!--モーダル終わり-->
+                        <div id="news2" style="display:none" class="news">
+                            <img src="images/bbq-2.png" alt="" class="banner">
+                            <h3>モバイルオーダーシステムがスタートしました</h3>
+                            <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
+                        </div>
+                    </div>
+                    <!--モーダル終わり-->
+
+                    <p>葛西臨海公園</p>
+                </div>
+                <div class="slr-photo">
+                    <!--モーダル始まり-->
+                    <div class="modal">
+                        <div class="modal-box">
+                            <a href="#news3" class="modal-button">
+                                <img src="images/bbq-3.png" alt="" class="banner">
+                            </a>
+                        </div>
+
+                        <div id="news3" style="display:none" class="news">
+                            <img src="images/bbq-3.png" alt="" class="banner">
+                            <h3>モバイルオーダーシステムがスタートしました</h3>
+                            <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
+                        </div>
+                    </div>
+                    <!--モーダル終わり-->
+
+                    <p>小金井公園</p>
+                </div>
+            </div>
+        </div>
+        <!--ここまで公園紹介②-->
+        <div class="decoration">
+            <img src="images/section2-1-2.png" alt="">
+        </div>
+
+        <!--ここまでBBQ-->
+
+        <!--BBQ　再-->
+
+        <div class="bbq">
+            <div class="s-left">
+                <div class="lead" id="bbq">
+                    <p>夏の定番BBQ。<br>
+                        ここでは手ぶらで気軽にBBQが楽しめる公園を紹介します。</p>
+                </div>
+
+                <div class="s-left-title">
+                    <div class="left-title-box">
+                        <img src="images/bbq-title-icon.png" alt="">
+                        <div class="left-textbox-purpose">
+                            <h5>BBQができる</h5>
+                        </div>
+                        <div class="left-textbox-name">
+                            <p class="left-parkname">昭和記念公園</p>
+                        </div>
+                        <div class="left-title-decoration">
+                            <div class="deco1"></div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="sl1-photo1">
+                    <!--モーダル始まり-->
+                    <div class="left-modal1">
+                        <div class="modal-box">
+                            <a href="#news1" class="modal-button1">
+                                <img src="images/bbq-1.png" alt="" class="banner">
+                            </a>
+                        </div>
+                        <div id="news1" style="display:none" class="news">
+                            <img src="images/bbq-1.png" alt="" class="banner">
+                            <h3>モバイルオーダーシステムがスタートしました</h3>
+                            <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
+                        </div>
+                    </div>
+                    <!--モーダル終わり-->
+                    <h4 class="num11">01</h4>
+                    <a href="https://www.showakinen-koen.jp/" target="_blank"><img src="images/suggest-location.png"
+                            alt=""></a>
+
                     <p class="left-detail"><span id="bold">おすすめポイント：</span>BBQの持ち込みもOK<br>
-                        <span id="bold">おすすめ度：</span></p>
+                        <span id="bold">おすすめ度：</span>
+                    </p>
                     <div class="left-stars">
                         <img src="images/stars.png" alt="">
-                        </div>  
+                    </div>
                 </div>
             </div>
         </div>
@@ -164,15 +273,15 @@
                             <a href="#news2" class="modal-button">
                                 <img src="images/bbq-2.png" alt="" class="banner">
                             </a>
-                            </div>
-                            <div id="news2" style="display:none" class="news">
-                                <img src="images/bbq-2.png" alt="" class="banner">
-                                <h3>モバイルオーダーシステムがスタートしました</h3>
-                                <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
-                            </div>
                         </div>
-                        <!--モーダル終わり-->
-                    
+                        <div id="news2" style="display:none" class="news">
+                            <img src="images/bbq-2.png" alt="" class="banner">
+                            <h3>モバイルオーダーシステムがスタートしました</h3>
+                            <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
+                        </div>
+                    </div>
+                    <!--モーダル終わり-->
+
                     <p>葛西臨海公園</p>
                 </div>
                 <div class="slr-photo">
@@ -182,33 +291,37 @@
                             <a href="#news3" class="modal-button">
                                 <img src="images/bbq-3.png" alt="" class="banner">
                             </a>
-                            </div>
-                        
-                            <div id="news3" style="display:none" class="news">
-                                <img src="images/bbq-3.png" alt="" class="banner">
-                                <h3>モバイルオーダーシステムがスタートしました</h3>
-                                <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
-                            </div>
                         </div>
-                        <!--モーダル終わり-->
-                    
+
+                        <div id="news3" style="display:none" class="news">
+                            <img src="images/bbq-3.png" alt="" class="banner">
+                            <h3>モバイルオーダーシステムがスタートしました</h3>
+                            <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
+                        </div>
+                    </div>
+                    <!--モーダル終わり-->
+
                     <p>小金井公園</p>
                 </div>
             </div>
         </div>
         <!--ここまで公園紹介②-->
+
         <div class="decoration">
             <img src="images/section2-1-2.png" alt="">
         </div>
+        </div>
 
-        <!--ここまでBBQ-->
+
+
+        <!--ここまで　BBQ　再-->
 
         <!--ここから のんびり-->
         <div class="s-right" id="relax">
             <div class="lead">
                 <p>公園で深呼吸。<br>
-                ここでは思わずのんびりしたくなる公園を紹介します。</p>
-                </div>
+                    ここでは思わずのんびりしたくなる公園を紹介します。</p>
+            </div>
 
             <div class="s-right-title">
                 <div class="right-title-box">
@@ -223,8 +336,9 @@
                         <div class="deco2"></div>
                     </div>
                     <div class="right-location">
-                        <a href="https://www.showakinen-koen.jp/" target="_blank"><img src="images/suggest-location.png" alt=""></a>
-                        </div>
+                        <a href="https://www.showakinen-koen.jp/" target="_blank"><img src="images/suggest-location.png"
+                                alt=""></a>
+                    </div>
                 </div>
                 <div class="sr1-photo">
                     <h4 class="num2">02</h4>
@@ -234,20 +348,21 @@
                             <a href="#news4" class="modal-button">
                                 <img src="images/relax-1.png" alt="" class="banner">
                             </a>
-                            </div>
-                            <div id="news4" style="display:none" class="news">
-                                <img src="images/relax-1.png" alt="" class="banner">
-                                <h3>モバイルオーダーシステムがスタートしました</h3>
-                                <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
-                            </div>
                         </div>
-                        <!--モーダル終わり-->
+                        <div id="news4" style="display:none" class="news">
+                            <img src="images/relax-1.png" alt="" class="banner">
+                            <h3>モバイルオーダーシステムがスタートしました</h3>
+                            <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
+                        </div>
+                    </div>
+                    <!--モーダル終わり-->
                     <!--<img src="images/relax-1.png" alt="">-->
                     <p class="right-detail"><span id="bold">おすすめポイント：</span>日本庭園と芝生が落ち着く<br>
-                        <span id="bold">おすすめ度：</span></p>
+                        <span id="bold">おすすめ度：</span>
+                    </p>
                     <div class="right-stars">
                         <img src="images/stars.png" alt="">
-                        </div>    
+                    </div>
                 </div>
             </div>
         </div>
@@ -262,15 +377,15 @@
                             <a href="#news5" class="modal-button">
                                 <img src="images/relax-2.png" alt="" class="banner">
                             </a>
-                            </div>
-                            <div id="news5" style="display:none" class="news">
-                                <img src="images/relax-2.png" alt="" class="banner">
-                                <h3>モバイルオーダーシステムがスタートしました</h3>
-                                <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
-                            </div>
                         </div>
-                        <!--モーダル終わり-->
-                    
+                        <div id="news5" style="display:none" class="news">
+                            <img src="images/relax-2.png" alt="" class="banner">
+                            <h3>モバイルオーダーシステムがスタートしました</h3>
+                            <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
+                        </div>
+                    </div>
+                    <!--モーダル終わり-->
+
                     <p>井の頭公園</p>
                 </div>
                 <div class="slr-photo">
@@ -280,15 +395,15 @@
                             <a href="#news6" class="modal-button">
                                 <img src="images/relax-3.png" alt="" class="banner">
                             </a>
-                            </div>
-                            <div id="news6" style="display:none" class="news">
-                                <img src="images/relax-3.png" alt="" class="banner">
-                                <h3>モバイルオーダーシステムがスタートしました</h3>
-                                <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
-                            </div>
                         </div>
-                        <!--モーダル終わり-->
-                    
+                        <div id="news6" style="display:none" class="news">
+                            <img src="images/relax-3.png" alt="" class="banner">
+                            <h3>モバイルオーダーシステムがスタートしました</h3>
+                            <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
+                        </div>
+                    </div>
+                    <!--モーダル終わり-->
+
                     <p>等々力渓谷公園</p>
                 </div>
             </div>
@@ -305,7 +420,7 @@
             <div class="lead" id="swing">
                 <p>小さい子どももずっと遊べる<br>
                     ここでは子どもが楽しめるエリアがある公園を紹介します。</p>
-                </div>
+            </div>
 
             <div class="s-left-title">
                 <div class="left-title-box">
@@ -320,34 +435,36 @@
                         <div class="deco3"></div>
                     </div>
                     <div class="left-location">
-                        <a href="https://www.showakinen-koen.jp/" target="_blank"><img src="images/suggest-location.png" alt=""></a>
-                        </div>
-                </div>
-                </div>
-                
-                <div class="sl1-photo">
-                    <h4 class="num3">03</h4>
-                        <!--モーダル始まり-->
-                        <div class="left-modal">
-                            <div class="modal-box">
-                                <a href="#news7" class="modal-button">
-                                    <img src="images/swing-1.png" alt="" class="banner">
-                                </a>
-                                </div>
-                                <div id="news7" style="display:none" class="news">
-                                    <img src="images/swing-1.png" alt="" class="banner">
-                                    <h3>モバイルオーダーシステムがスタートしました</h3>
-                                    <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
-                                </div>
-                            </div>
-                            <!--モーダル終わり-->
-                    <p class="left-detail"><span id="bold">おすすめポイント：</span>Bトランポリンが楽しい<br>
-                        <span id="bold">おすすめ度：</span></p>
-                    <div class="left-stars">
-                        <img src="images/stars.png" alt="">
-                        </div>  
+                        <a href="https://www.showakinen-koen.jp/" target="_blank"><img src="images/suggest-location.png"
+                                alt=""></a>
+                    </div>
                 </div>
             </div>
+
+            <div class="sl1-photo">
+                <h4 class="num3">03</h4>
+                <!--モーダル始まり-->
+                <div class="left-modal">
+                    <div class="modal-box">
+                        <a href="#news7" class="modal-button">
+                            <img src="images/swing-1.png" alt="" class="banner">
+                        </a>
+                    </div>
+                    <div id="news7" style="display:none" class="news">
+                        <img src="images/swing-1.png" alt="" class="banner">
+                        <h3>モバイルオーダーシステムがスタートしました</h3>
+                        <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
+                    </div>
+                </div>
+                <!--モーダル終わり-->
+                <p class="left-detail"><span id="bold">おすすめポイント：</span>Bトランポリンが楽しい<br>
+                    <span id="bold">おすすめ度：</span>
+                </p>
+                <div class="left-stars">
+                    <img src="images/stars.png" alt="">
+                </div>
+            </div>
+        </div>
         </div>
         <!--ここまで詳細-->
         <!--ここから公園紹介②-->
@@ -360,15 +477,15 @@
                             <a href="#news8" class="modal-button">
                                 <img src="images/swing-2.png" alt="" class="banner">
                             </a>
-                            </div>
-                            <div id="news8" style="display:none" class="news">
-                                <img src="images/swing-2.png" alt="" class="banner">
-                                <h3>モバイルオーダーシステムがスタートしました</h3>
-                                <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
-                            </div>
                         </div>
-                        <!--モーダル終わり-->
-                    
+                        <div id="news8" style="display:none" class="news">
+                            <img src="images/swing-2.png" alt="" class="banner">
+                            <h3>モバイルオーダーシステムがスタートしました</h3>
+                            <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
+                        </div>
+                    </div>
+                    <!--モーダル終わり-->
+
                     <p>大蔵総合運動場</p>
                 </div>
                 <div class="slr-photo">
@@ -378,16 +495,16 @@
                             <a href="#news9" class="modal-button">
                                 <img src="images/swing-3.png" alt="" class="banner">
                             </a>
-                            </div>
-                        
-                            <div id="news9" style="display:none" class="news">
-                                <img src="images/swing-3.png" alt="" class="banner">
-                                <h3>モバイルオーダーシステムがスタートしました</h3>
-                                <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
-                            </div>
                         </div>
-                        <!--モーダル終わり-->
-                    
+
+                        <div id="news9" style="display:none" class="news">
+                            <img src="images/swing-3.png" alt="" class="banner">
+                            <h3>モバイルオーダーシステムがスタートしました</h3>
+                            <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
+                        </div>
+                    </div>
+                    <!--モーダル終わり-->
+
                     <p>小金井公園</p>
                 </div>
             </div>
@@ -403,8 +520,8 @@
         <div class="s-right" id="shoes">
             <div class="lead">
                 <p>運動不足になりがちな最近。<br>
-                ここでは運動不足解消にぴったりな公園を紹介します。</p>
-                </div>
+                    ここでは運動不足解消にぴったりな公園を紹介します。</p>
+            </div>
 
             <div class="s-right-title">
                 <div class="right-title-box">
@@ -419,8 +536,9 @@
                         <div class="deco4"></div>
                     </div>
                     <div class="right-location">
-                        <a href="https://www.tokyo-park.or.jp/park/format/index040.html" target="_blank"><img src="images/suggest-location.png" alt=""></a>
-                        </div>
+                        <a href="https://www.tokyo-park.or.jp/park/format/index040.html" target="_blank"><img
+                                src="images/suggest-location.png" alt=""></a>
+                    </div>
                 </div>
                 <div class="sr1-photo">
                     <h4 class="num4">04</h4>
@@ -430,20 +548,21 @@
                             <a href="#news10" class="modal-button">
                                 <img src="images/shoes-1.png" alt="" class="banner">
                             </a>
-                            </div>
-                            <div id="news10" style="display:none" class="news">
-                                <img src="images/shoes-1.png" alt="" class="banner">
-                                <h3>モバイルオーダーシステムがスタートしました</h3>
-                                <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
-                            </div>
                         </div>
-                        <!--モーダル終わり-->
+                        <div id="news10" style="display:none" class="news">
+                            <img src="images/shoes-1.png" alt="" class="banner">
+                            <h3>モバイルオーダーシステムがスタートしました</h3>
+                            <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
+                        </div>
+                    </div>
+                    <!--モーダル終わり-->
                     <!--<img src="images/relax-1.png" alt="">-->
                     <p class="right-detail"><span id="bold">おすすめポイント：</span>ランニングコースが充実<br>
-                        <span id="bold">おすすめ度：</span></p>
+                        <span id="bold">おすすめ度：</span>
+                    </p>
                     <div class="right-stars">
                         <img src="images/stars.png" alt="">
-                        </div>    
+                    </div>
                 </div>
             </div>
         </div>
@@ -458,15 +577,15 @@
                             <a href="#news11" class="modal-button">
                                 <img src="images/shoes-2.png" alt="" class="banner">
                             </a>
-                            </div>
-                            <div id="news11" style="display:none" class="news">
-                                <img src="images/shoes-2.png" alt="" class="banner">
-                                <h3>モバイルオーダーシステムがスタートしました</h3>
-                                <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
-                            </div>
                         </div>
-                        <!--モーダル終わり-->
-                    
+                        <div id="news11" style="display:none" class="news">
+                            <img src="images/shoes-2.png" alt="" class="banner">
+                            <h3>モバイルオーダーシステムがスタートしました</h3>
+                            <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
+                        </div>
+                    </div>
+                    <!--モーダル終わり-->
+
                     <p>舎人公園</p>
                 </div>
                 <div class="slr-photo">
@@ -476,15 +595,15 @@
                             <a href="#news12" class="modal-button">
                                 <img src="images/shoes-3.png" alt="" class="banner">
                             </a>
-                            </div>
-                            <div id="news12" style="display:none" class="news">
-                                <img src="images/shoes-3.png" alt="" class="banner">
-                                <h3>モバイルオーダーシステムがスタートしました</h3>
-                                <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
-                            </div>
                         </div>
-                        <!--モーダル終わり-->
-                    
+                        <div id="news12" style="display:none" class="news">
+                            <img src="images/shoes-3.png" alt="" class="banner">
+                            <h3>モバイルオーダーシステムがスタートしました</h3>
+                            <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
+                        </div>
+                    </div>
+                    <!--モーダル終わり-->
+
                     <p>大蔵運動公園</p>
                 </div>
             </div>
@@ -500,8 +619,8 @@
         <div class="s-left" id="photo">
             <div class="lead">
                 <p>公園はフォトスポットになる時代。<br>
-                ここでは思わず写真を撮りたくなる公園を紹介します。</p>
-                </div>
+                    ここでは思わず写真を撮りたくなる公園を紹介します。</p>
+            </div>
 
             <div class="s-left-title">
                 <div class="left-title-box">
@@ -516,34 +635,36 @@
                         <div class="deco5"></div>
                     </div>
                     <div class="left-location">
-                        <a href="https://fng.or.jp/shinjuku/" target="_blank"><img src="images/suggest-location.png" alt=""></a>
-                        </div>
-                </div>
-                </div>
-                
-                <div class="sl1-photo">
-                    <h4 class="num5">05</h4>
-                        <!--モーダル始まり-->
-                        <div class="left-modal">
-                            <div class="modal-box">
-                                <a href="#news13" class="modal-button">
-                                    <img src="images/photo-1.png" alt="" class="banner">
-                                </a>
-                                </div>
-                                <div id="news13" style="display:none" class="news">
-                                    <img src="images/photo-1.png" alt="" class="banner">
-                                    <h3>モバイルオーダーシステムがスタートしました</h3>
-                                    <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
-                                </div>
-                            </div>
-                            <!--モーダル終わり-->
-                    <p class="left-detail"><span id="bold">おすすめポイント：</span>ビルに映る緑が美しい<br>
-                        <span id="bold">おすすめ度：</span></p>
-                    <div class="left-stars">
-                        <img src="images/stars.png" alt="">
-                        </div>  
+                        <a href="https://fng.or.jp/shinjuku/" target="_blank"><img src="images/suggest-location.png"
+                                alt=""></a>
+                    </div>
                 </div>
             </div>
+
+            <div class="sl1-photo">
+                <h4 class="num5">05</h4>
+                <!--モーダル始まり-->
+                <div class="left-modal">
+                    <div class="modal-box">
+                        <a href="#news13" class="modal-button">
+                            <img src="images/photo-1.png" alt="" class="banner">
+                        </a>
+                    </div>
+                    <div id="news13" style="display:none" class="news">
+                        <img src="images/photo-1.png" alt="" class="banner">
+                        <h3>モバイルオーダーシステムがスタートしました</h3>
+                        <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
+                    </div>
+                </div>
+                <!--モーダル終わり-->
+                <p class="left-detail"><span id="bold">おすすめポイント：</span>ビルに映る緑が美しい<br>
+                    <span id="bold">おすすめ度：</span>
+                </p>
+                <div class="left-stars">
+                    <img src="images/stars.png" alt="">
+                </div>
+            </div>
+        </div>
         </div>
         <!--ここまで詳細-->
         <!--ここから公園紹介②-->
@@ -556,15 +677,15 @@
                             <a href="#news14" class="modal-button">
                                 <img src="images/photo-2.png" alt="" class="banner">
                             </a>
-                            </div>
-                            <div id="news14" style="display:none" class="news">
-                                <img src="images/photo-2.png" alt="" class="banner">
-                                <h3>モバイルオーダーシステムがスタートしました</h3>
-                                <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
-                            </div>
                         </div>
-                        <!--モーダル終わり-->
-                    
+                        <div id="news14" style="display:none" class="news">
+                            <img src="images/photo-2.png" alt="" class="banner">
+                            <h3>モバイルオーダーシステムがスタートしました</h3>
+                            <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
+                        </div>
+                    </div>
+                    <!--モーダル終わり-->
+
                     <p>芝公園</p>
                 </div>
                 <div class="slr-photo">
@@ -574,16 +695,16 @@
                             <a href="#news15" class="modal-button">
                                 <img src="images/photo-3.png" alt="" class="banner">
                             </a>
-                            </div>
-                        
-                            <div id="news15" style="display:none" class="news">
-                                <img src="images/photo-3.png" alt="" class="banner">
-                                <h3>モバイルオーダーシステムがスタートしました</h3>
-                                <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
-                            </div>
                         </div>
-                        <!--モーダル終わり-->
-                    
+
+                        <div id="news15" style="display:none" class="news">
+                            <img src="images/photo-3.png" alt="" class="banner">
+                            <h3>モバイルオーダーシステムがスタートしました</h3>
+                            <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
+                        </div>
+                    </div>
+                    <!--モーダル終わり-->
+
                     <p>日比谷公園</p>
                 </div>
             </div>
@@ -599,8 +720,8 @@
         <div class="s-right" id="sun">
             <div class="lead">
                 <p>すぐに帰宅してしまうのは勿体無い。<br>
-                ここでは朝から暗くなるまで1日中過ごせる公園を紹介します。</p>
-                </div>
+                    ここでは朝から暗くなるまで1日中過ごせる公園を紹介します。</p>
+            </div>
 
             <div class="s-right-title">
                 <div class="right-title-box">
@@ -615,8 +736,9 @@
                         <div class="deco6"></div>
                     </div>
                     <div class="right-location">
-                        <a href="https://www.kensetsu.metro.tokyo.lg.jp/jimusho/seibuk/inokashira/index.html" target="_blank"><img src="images/suggest-location.png" alt=""></a>
-                        </div>
+                        <a href="https://www.kensetsu.metro.tokyo.lg.jp/jimusho/seibuk/inokashira/index.html"
+                            target="_blank"><img src="images/suggest-location.png" alt=""></a>
+                    </div>
                 </div>
                 <div class="sr1-photo">
                     <h4 class="num6">06</h4>
@@ -626,19 +748,20 @@
                             <a href="#news16" class="modal-button">
                                 <img src="images/sun-1.png" alt="" class="banner">
                             </a>
-                            </div>
-                            <div id="news16" style="display:none" class="news">
-                                <img src="images/sun-1.png" alt="" class="banner">
-                                <h3>モバイルオーダーシステムがスタートしました</h3>
-                                <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
-                            </div>
                         </div>
-                        <!--モーダル終わり-->
+                        <div id="news16" style="display:none" class="news">
+                            <img src="images/sun-1.png" alt="" class="banner">
+                            <h3>モバイルオーダーシステムがスタートしました</h3>
+                            <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
+                        </div>
+                    </div>
+                    <!--モーダル終わり-->
                     <p class="right-detail"><span id="bold">おすすめポイント：</span>動物園と吉祥寺散策も同じ日にできる<br>
-                        <span id="bold">おすすめ度：</span></p>
+                        <span id="bold">おすすめ度：</span>
+                    </p>
                     <div class="right-stars">
                         <img src="images/stars.png" alt="">
-                        </div>    
+                    </div>
                 </div>
             </div>
         </div>
@@ -653,15 +776,15 @@
                             <a href="#news17" class="modal-button">
                                 <img src="images/sun-2.png" alt="" class="banner">
                             </a>
-                            </div>
-                            <div id="news17" style="display:none" class="news">
-                                <img src="images/sun-2.png" alt="" class="banner">
-                                <h3>モバイルオーダーシステムがスタートしました</h3>
-                                <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
-                            </div>
                         </div>
-                        <!--モーダル終わり-->
-                    
+                        <div id="news17" style="display:none" class="news">
+                            <img src="images/sun-2.png" alt="" class="banner">
+                            <h3>モバイルオーダーシステムがスタートしました</h3>
+                            <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
+                        </div>
+                    </div>
+                    <!--モーダル終わり-->
+
                     <p>代々木公園</p>
                 </div>
                 <div class="slr-photo">
@@ -671,15 +794,15 @@
                             <a href="#news18" class="modal-button">
                                 <img src="images/sun-3.png" alt="" class="banner">
                             </a>
-                            </div>
-                            <div id="news18" style="display:none" class="news">
-                                <img src="images/sun-3.png" alt="" class="banner">
-                                <h3>モバイルオーダーシステムがスタートしました</h3>
-                                <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
-                            </div>
                         </div>
-                        <!--モーダル終わり-->
-                    
+                        <div id="news18" style="display:none" class="news">
+                            <img src="images/sun-3.png" alt="" class="banner">
+                            <h3>モバイルオーダーシステムがスタートしました</h3>
+                            <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
+                        </div>
+                    </div>
+                    <!--モーダル終わり-->
+
                     <p>昭和記念公園</p>
                 </div>
             </div>
@@ -694,155 +817,197 @@
 
 
 
-        
-            </section>
 
-            
-            
-            <section class="caution" id="caution">
-                <div class="section-title">
-                    <div class="half-circle"><img src="images/section3-title.png" alt=""></div>
-                    <div class="section-rec">
-                        <h3 class="heading">気をつけること</h3>
-                    </div>
-                    <div class="icons">
-                        <div class="c-point">
-                            <img src="images/section3-left.png" alt="">
-                        </div>
-                        <div class="c-point">
-                            <img src="images/section3-right.png" alt="">
-                        </div>
-                    </div>
-                </div>
+    </section>
 
-            </section>
 
-            <section class="season" id="season">
-                <div class="section-title">
-                    <div class="half-circle"><img src="images/section4-title.png" alt=""></div>
-                    <div class="section-rec">
-                        <h3 class="heading">季節ごとのおすすめ</h3>
-                    </div>
-                    <div class="icons">
-                        <div class="section45-icon">
-                            <a href="https://www.kensetsu.metro.tokyo.lg.jp/jimusho/toubuk/ueno/index_top.html" target="_blank"><img src="images/section4-spring.png" alt=""></a>
-                            <p>--春--</p>
-                            <p class="bold">上野恩賜公園</p>
-                            <p>桜が綺麗</p>
-                        </div>
-                        <div class="section45-icon">
-                            <a href="https://www.tptc.co.jp/park/01_02" target="_blank"><img src="images/section4-summer.png" alt=""></a>
-                            <p>--夏--</p>
-                            <p class="bold">お台場海浜公園</p>
-                            <p>人工ビーチを満喫</p>
-                        </div>
-                        <div class="section45-icon">
-                            <a href="https://www.tokyo-park.or.jp/park/format/index041.html" target="_blank"><img src="images/section4-autumn.png" alt=""></a>
-                            <p>--秋--</p>
-                            <p class="bold">水元公園</p>
-                            <p>水に映る紅葉が綺麗</p>
-                        </div>
-                        <div class="section45-icon">
-                            <a href="https://www.tokyo-park.or.jp/park/format/index037.html" target="_blank"><img src="images/section4-winter.png" alt=""></a>
-                            <p>--冬--</p>
-                            <p class="bold">日比谷公園</p>
-                            <p>クリスマスマーケットが<br>かわいい</p>
-                        </div>
-                    </div>
-                </div>
 
-            </section>
-
-            <section class="japan" id="japan">
-                <div class="section-title">
-                    <div class="half-circle"><img src="images/section5-title.png" alt=""></div>
-                    <div class="section-rec">
-                        <h3 class="heading">都外のおすすめ</h3>
-                    </div>
-                    <div class="icons">
-                        <div class="section45-icon">
-                            <a href="https://hitachikaihin.jp/" target="_blank"><img src="images/section5-hitachi.png" alt=""></a>
-                            <p class="bold">国営ひたち海浜公園</p>
-                            <p>茨城県</p>
-                            <p>ネモフィラが綺麗</p>
-                        </div>
-                        <div class="section45-icon">
-                            <a href="https://www.welcome.city.yokohama.jp/spot/details.php?bbid=190" target="_blank"><img src="images/section5-yamashita.png" alt=""></a>
-                            <p class="bold">山下公園</p>
-                            <p>神奈川県</p>
-                            <p>バラ園と海の眺めが綺麗</p>
-                        </div>
-                        <div class="section45-icon">
-                            <a href="https://moerenumapark.jp/" target="_blank"><img src="images/section5-moere.png" alt=""></a>
-                            <p class="bold">モエレ沼公園</p>
-                            <p>北海道</p>
-                            <p>1年を通して異なる魅力</p>
-                        </div>
-                        <div class="section45-icon">
-                            <a href="https://www3.pref.nara.jp/park/" target="_blank"><img src="images/section5-nara.png" alt=""></a>
-                            <p class="bold">奈良公園</p>
-                            <p>奈良県</p>
-                            <p>シカに会うことができる</p>
-                        </div>
-                    </div>
-                </div>
-
-            </section>
-
-            <section class="last" id="last">
-                <div class="section-title">
-                    <div class="half-circle"><img src="images/section6-title.png" alt=""></div>
-                    <div class="section-rec">
-                        <h3 class="heading">さいごに</h3>
-                    </div>
-                </div>
-                <p class="last">目的別のおすすめの公園のご紹介はいかがでしたか？<br>
-                    東京都内にもさまざまなシーンに合う公園がたくさんあります。<br>
-                    BBQや運動、のんびり、、などお出かけ先の候補に公園を入れてみてはいかがでしょうか。
-                    </p>
-            </section>
-
-            <section class="info">
-            <div class="i-box">
-                <p class="info-title">紹介した公園一覧</p>
-                <div class="i-infoes1">
-                    <div class="i-info1">
-                        <p class="park-names"><span class="parkname-bold">BBQができる公園</span><br><a href="https://www.showakinen-koen.jp/" target="_blank">昭和記念公園</a><br><a href="https://www.tokyo-park.or.jp/park/format/index026.html" target="_blank">葛西臨海公園</a><br><a href="https://www.tokyo-park.or.jp/park/format/index050.html" target="_blank">小金井公園</a></p>
-                    </div>
-                    <div class="i-info1">
-                        <p class="park-names"><span class="parkname-bold">のんびりできる公園</span><br><a href="https://fng.or.jp/shinjuku/" target="_blank">新宿御苑</a><br><a href="https://www.kensetsu.metro.tokyo.lg.jp/jimusho/seibuk/inokashira/index.html" target="_blank">井の頭公園</a><br><a href="https://www.city.setagaya.lg.jp/mokuji/kusei/012/015/001/010/d00004247.html" target="_blank">等々力渓谷公園</a></p>
-                    </div>
-                    <div class="i-info1">
-                        <p class="park-names"><span class="parkname-bold">運動ができる公園</span><br><a href="https://www.tokyo-park.or.jp/park/format/index040.html" target="_blank">駒澤オリンピック公園</a><br><a href="https://www.tokyo-park.or.jp/park/format/index024.html" target="_blank">舎人公園</a><br><a href="https://www.city.setagaya.lg.jp/mokuji/kusei/012/015/001/010/d00120529.html" target="_blank">大蔵運動公園</a></p>
-                    </div>
-                    <div class="i-info1">
-                        <p class="park-names"><span class="parkname-bold">こどもが楽しい公園</span><br><a href="https://www.showakinen-koen.jp/" target="_blank">昭和記念公園</a><br><a href="https://www.se-sports.or.jp/facility/sougou/">大蔵総合運動場</a><br><a href="https://www.tokyo-park.or.jp/park/format/index050.html" target="_blank">小金井公園</a></p>
-                    </div>
-                </div>
-                <div class="i-infoes2">
-                    <div class="i-info2">
-                        <p class="park-names"><span class="parkname-bold">写真を撮りたくなる公園</span><br><a href="https://fng.or.jp/shinjuku/" target="_blank">新宿御苑</a><br><a href="https://www.tokyo-park.or.jp/park/format/index001.html" target="_blank">芝公園</a><br><a href="https://www.tokyo-park.or.jp/park/format/index037.html" target="_blank">日比谷公園</a></p>
-                    </div>
-                    <div class="i-info2">
-                        <p class="park-names"><span class="parkname-bold">1日中楽しめる公園</span><br><a href="https://www.kensetsu.metro.tokyo.lg.jp/jimusho/seibuk/inokashira/index.html" target="_blank">井の頭公園</a><br><a href="https://www.tokyo-park.or.jp/park/format/index039.html" target="_blank">代々木公園</a><br><a href="https://www.showakinen-koen.jp/" target="_blank">昭和記念公園</a></p>
-                    </div>
-                    <div class="i-info2">
-                        <p class="park-names"><span class="parkname-bold">季節ごとのおすすめ公園</span><br><a href="https://www.kensetsu.metro.tokyo.lg.jp/jimusho/toubuk/ueno/index_top.html" target="_blank">上野恩賜公園</a><br><a href="https://www.tptc.co.jp/park/01_02" target="_blank">お台場海浜公園</a><br><a href="https://www.tokyo-park.or.jp/park/format/index041.html" target="_blank">水元公園</a><br><a href="https://www.tokyo-park.or.jp/park/format/index037.html" target="_blank">日比谷公園</a></p>
-                    </div>
-                    <div class="i-info2">
-                        <p class="park-names"><span class="parkname-bold">都外のおすすめ公園</span><br><a href="https://hitachikaihin.jp/" target="_blank">国営ひたち海浜公園</a><br><a href="https://www.welcome.city.yokohama.jp/spot/details.php?bbid=190" target="_blank">山下公園</a><br><a href="https://moerenumapark.jp/" target="_blank">モエレ沼公園</a><br><a href="https://www3.pref.nara.jp/park/" target="_blank">奈良公園</a></p>
-                    </div>
-                </div>
-                
+    <section class="caution" id="caution">
+        <div class="section-title">
+            <div class="half-circle"><img src="images/section3-title.png" alt=""></div>
+            <div class="section-rec">
+                <h3 class="heading">気をつけること</h3>
             </div>
-            </section>
+            <div class="icons">
+                <div class="c-point">
+                    <img src="images/section3-left.png" alt="">
+                </div>
+                <div class="c-point">
+                    <img src="images/section3-right.png" alt="">
+                </div>
+            </div>
+        </div>
 
-            
-        </body>
+    </section>
 
-        <footer>
-            <p>&copy;honoka nagata</p>
-        </footer>
+    <section class="season" id="season">
+        <div class="section-title">
+            <div class="half-circle"><img src="images/section4-title.png" alt=""></div>
+            <div class="section-rec">
+                <h3 class="heading">季節ごとのおすすめ</h3>
+            </div>
+            <div class="icons">
+                <div class="section45-icon">
+                    <a href="https://www.kensetsu.metro.tokyo.lg.jp/jimusho/toubuk/ueno/index_top.html"
+                        target="_blank"><img src="images/section4-spring.png" alt=""></a>
+                    <p>--春--</p>
+                    <p class="bold">上野恩賜公園</p>
+                    <p>桜が綺麗</p>
+                </div>
+                <div class="section45-icon">
+                    <a href="https://www.tptc.co.jp/park/01_02" target="_blank"><img src="images/section4-summer.png"
+                            alt=""></a>
+                    <p>--夏--</p>
+                    <p class="bold">お台場海浜公園</p>
+                    <p>人工ビーチを満喫</p>
+                </div>
+                <div class="section45-icon">
+                    <a href="https://www.tokyo-park.or.jp/park/format/index041.html" target="_blank"><img
+                            src="images/section4-autumn.png" alt=""></a>
+                    <p>--秋--</p>
+                    <p class="bold">水元公園</p>
+                    <p>水に映る紅葉が綺麗</p>
+                </div>
+                <div class="section45-icon">
+                    <a href="https://www.tokyo-park.or.jp/park/format/index037.html" target="_blank"><img
+                            src="images/section4-winter.png" alt=""></a>
+                    <p>--冬--</p>
+                    <p class="bold">日比谷公園</p>
+                    <p>クリスマスマーケットが<br>かわいい</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="japan" id="japan">
+        <div class="section-title">
+            <div class="half-circle"><img src="images/section5-title.png" alt=""></div>
+            <div class="section-rec">
+                <h3 class="heading">都外のおすすめ</h3>
+            </div>
+            <div class="icons">
+                <div class="section45-icon">
+                    <a href="https://hitachikaihin.jp/" target="_blank"><img src="images/section5-hitachi.png"
+                            alt=""></a>
+                    <p class="bold">国営ひたち海浜公園</p>
+                    <p>茨城県</p>
+                    <p>ネモフィラが綺麗</p>
+                </div>
+                <div class="section45-icon">
+                    <a href="https://www.welcome.city.yokohama.jp/spot/details.php?bbid=190" target="_blank"><img
+                            src="images/section5-yamashita.png" alt=""></a>
+                    <p class="bold">山下公園</p>
+                    <p>神奈川県</p>
+                    <p>バラ園と海の眺めが綺麗</p>
+                </div>
+                <div class="section45-icon">
+                    <a href="https://moerenumapark.jp/" target="_blank"><img src="images/section5-moere.png" alt=""></a>
+                    <p class="bold">モエレ沼公園</p>
+                    <p>北海道</p>
+                    <p>1年を通して異なる魅力</p>
+                </div>
+                <div class="section45-icon">
+                    <a href="https://www3.pref.nara.jp/park/" target="_blank"><img src="images/section5-nara.png"
+                            alt=""></a>
+                    <p class="bold">奈良公園</p>
+                    <p>奈良県</p>
+                    <p>シカに会うことができる</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="last" id="last">
+        <div class="section-title">
+            <div class="half-circle"><img src="images/section6-title.png" alt=""></div>
+            <div class="section-rec">
+                <h3 class="heading">さいごに</h3>
+            </div>
+        </div>
+        <p class="last">目的別のおすすめの公園のご紹介はいかがでしたか？<br>
+            東京都内にもさまざまなシーンに合う公園がたくさんあります。<br>
+            BBQや運動、のんびり、、などお出かけ先の候補に公園を入れてみてはいかがでしょうか。
+        </p>
+    </section>
+
+    <section class="info">
+        <div class="i-box">
+            <p class="info-title">紹介した公園一覧</p>
+            <div class="i-infoes1">
+                <div class="i-info1">
+                    <p class="park-names"><span class="parkname-bold">BBQができる公園</span><br><a
+                            href="https://www.showakinen-koen.jp/" target="_blank">昭和記念公園</a><br><a
+                            href="https://www.tokyo-park.or.jp/park/format/index026.html"
+                            target="_blank">葛西臨海公園</a><br><a
+                            href="https://www.tokyo-park.or.jp/park/format/index050.html" target="_blank">小金井公園</a></p>
+                </div>
+                <div class="i-info1">
+                    <p class="park-names"><span class="parkname-bold">のんびりできる公園</span><br><a
+                            href="https://fng.or.jp/shinjuku/" target="_blank">新宿御苑</a><br><a
+                            href="https://www.kensetsu.metro.tokyo.lg.jp/jimusho/seibuk/inokashira/index.html"
+                            target="_blank">井の頭公園</a><br><a
+                            href="https://www.city.setagaya.lg.jp/mokuji/kusei/012/015/001/010/d00004247.html"
+                            target="_blank">等々力渓谷公園</a></p>
+                </div>
+                <div class="i-info1">
+                    <p class="park-names"><span class="parkname-bold">運動ができる公園</span><br><a
+                            href="https://www.tokyo-park.or.jp/park/format/index040.html"
+                            target="_blank">駒澤オリンピック公園</a><br><a
+                            href="https://www.tokyo-park.or.jp/park/format/index024.html" target="_blank">舎人公園</a><br><a
+                            href="https://www.city.setagaya.lg.jp/mokuji/kusei/012/015/001/010/d00120529.html"
+                            target="_blank">大蔵運動公園</a></p>
+                </div>
+                <div class="i-info1">
+                    <p class="park-names"><span class="parkname-bold">こどもが楽しい公園</span><br><a
+                            href="https://www.showakinen-koen.jp/" target="_blank">昭和記念公園</a><br><a
+                            href="https://www.se-sports.or.jp/facility/sougou/">大蔵総合運動場</a><br><a
+                            href="https://www.tokyo-park.or.jp/park/format/index050.html" target="_blank">小金井公園</a></p>
+                </div>
+            </div>
+            <div class="i-infoes2">
+                <div class="i-info2">
+                    <p class="park-names"><span class="parkname-bold">写真を撮りたくなる公園</span><br><a
+                            href="https://fng.or.jp/shinjuku/" target="_blank">新宿御苑</a><br><a
+                            href="https://www.tokyo-park.or.jp/park/format/index001.html" target="_blank">芝公園</a><br><a
+                            href="https://www.tokyo-park.or.jp/park/format/index037.html" target="_blank">日比谷公園</a></p>
+                </div>
+                <div class="i-info2">
+                    <p class="park-names"><span class="parkname-bold">1日中楽しめる公園</span><br><a
+                            href="https://www.kensetsu.metro.tokyo.lg.jp/jimusho/seibuk/inokashira/index.html"
+                            target="_blank">井の頭公園</a><br><a
+                            href="https://www.tokyo-park.or.jp/park/format/index039.html"
+                            target="_blank">代々木公園</a><br><a href="https://www.showakinen-koen.jp/"
+                            target="_blank">昭和記念公園</a></p>
+                </div>
+                <div class="i-info2">
+                    <p class="park-names"><span class="parkname-bold">季節ごとのおすすめ公園</span><br><a
+                            href="https://www.kensetsu.metro.tokyo.lg.jp/jimusho/toubuk/ueno/index_top.html"
+                            target="_blank">上野恩賜公園</a><br><a href="https://www.tptc.co.jp/park/01_02"
+                            target="_blank">お台場海浜公園</a><br><a
+                            href="https://www.tokyo-park.or.jp/park/format/index041.html" target="_blank">水元公園</a><br><a
+                            href="https://www.tokyo-park.or.jp/park/format/index037.html" target="_blank">日比谷公園</a></p>
+                </div>
+                <div class="i-info2">
+                    <p class="park-names"><span class="parkname-bold">都外のおすすめ公園</span><br><a
+                            href="https://hitachikaihin.jp/" target="_blank">国営ひたち海浜公園</a><br><a
+                            href="https://www.welcome.city.yokohama.jp/spot/details.php?bbid=190"
+                            target="_blank">山下公園</a><br><a href="https://moerenumapark.jp/"
+                            target="_blank">モエレ沼公園</a><br><a href="https://www3.pref.nara.jp/park/"
+                            target="_blank">奈良公園</a></p>
+                </div>
+            </div>
+
+        </div>
+    </section>
 
 
-        </html>
+</body>
+
+<footer>
+    <p>&copy;honoka nagata</p>
+</footer>
+
+
+</html>
