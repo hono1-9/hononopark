@@ -224,6 +224,10 @@ nav a{
     margin: 0px 170px 192px 170px;
 }
 
+#suggest img{
+    border-radius: 10px;
+}
+
 /**/
 .s-left-title{
     width: 200px;
@@ -272,6 +276,7 @@ nav a{
     top: 0;
     right: 0;
     z-index: -1;
+    border-radius: 3px;
 }
 
 .name{
@@ -289,6 +294,42 @@ nav a{
     position: relative;
     display: inline-block;   
 }
+
+/*モーダル中身*/
+
+
+.location-info{
+    display: block;
+    width: 300px;
+    padding: 10px 0;
+    margin: 0 ;
+    border: #253d58 solid;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #253d58 ;
+}
+
+.icon-info{
+    margin: 30px 110px 0 110px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.park-info{
+    margin: auto;
+    text-align: left;
+    width: 775px;
+    font-size: 20px;
+}
+
+.banner{
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+
+/*まで　モーダル*/
 
 .num1{
     position: absolute;
@@ -316,7 +357,7 @@ nav a{
 
 .left-location{
     position: absolute;
-    bottom: 20px;
+    bottom: 40px;
     right: 20px;
     
 }
@@ -406,9 +447,17 @@ nav a{
 
 
 /*モーダル中央寄せ*/
+
 .modaal-content-container{
     text-align: center;
+    height: 800px;
+    background-color: #fbfbfb;
 }
+
+
+
+
+
 /*ここまでモーダル中央寄せ*/
 
 /*モーダルの×の色*/
@@ -470,6 +519,7 @@ nav a{
     top: 0;
     right: 0;
     z-index: -1;
+    border-radius: 3px;
 }
 
 .name{
@@ -516,7 +566,7 @@ nav a{
 
 .right-location{
     position: absolute;
-    bottom: 20px;
+    bottom: 40px;
     right: 20px;
     
 }
@@ -525,6 +575,10 @@ nav a{
     display: flex;
     justify-content: space-between;
     
+}
+
+.right-detail{
+    font-size: 20px;
 }
 
 .s-point{
@@ -575,7 +629,12 @@ nav a{
 .bold{
     display: inline-block;
     font-weight: bold;
-    color: #252525;
+    color: #253d58;
+    font-size: 20px;
+}
+
+.left-detail {
+    font-size: 20px;
 }
 
 /*ここまで詳細*/
