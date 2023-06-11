@@ -219,6 +219,88 @@ nav a{
     margin-bottom: 192px;
 }
 
+/**/
+.s-left-title{
+    width: 200px;
+}
+
+.icon{
+    text-align: right;
+}
+
+.icon img{
+    transform: translate(25%,0);
+
+}
+
+.title-name{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+}
+
+.title{
+    writing-mode: vertical-lr;
+    font-size: 50px;
+    text-orientation: upright; /*効いたけれど、若干ずれている縦書き*/
+    letter-spacing: 1.4rem;
+    position: relative;
+}
+
+.title span{
+    display: inline-block;
+    background-color: #D0AC7F;
+    opacity: 0.5;
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.name{
+    writing-mode: vertical-rl;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.modal-box a{
+    display: inline-block;
+    height: 100%;
+}
+
+/*書き足し*/
+.sl1-photo{
+   
+}
+
+.left-modal{
+    position: relative;
+    
+}
+
+.num1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+
+.left-location{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    
+}
+
+
+
+/**/
+
+
 .s-point{
     text-align: center;
     float:left;
@@ -328,29 +410,13 @@ nav a{
     margin: 0;
 }
 
-.left-location img{
-    position: relative;
-    left: 853px;
-    z-index: 2;
-    top: 580px;
-}
 
-.sl-box{
-    position: relative;
-    top: -607px;
-}
 
-.sl1-photo img{
-    z-index: -1;
-    
-}
+
 
 .sl1-photo h4{
     font-size: 120px;
     font-weight: bold;
-    z-index: 1;
-    position: relative;
-    left: 104px;
     text-shadow:
     3px 3px 3px #fbfbfb, -3px -3px 3px #fbfbfb,
    -3px 3px 3px #fbfbfb,  3px -3px 3px #fbfbfb,
@@ -370,18 +436,6 @@ nav a{
     color: #FF7B74;
 }
 
-.left-detail{
-    text-align: left;
-    position: relative;
-    left: 173px;
-    top: -70px;
-}
-
-.left-modal a{
-    position: relative;
-    left: 180px;
-    top: -80px;
-}
 
 /*モーダル中央寄せ*/
 .modaal-content-container{
@@ -400,11 +454,7 @@ nav a{
 
 
 
-.left-stars {
-    position: relative;
-    top: -100px;
-    left: 300px;
-}
+
 
 /*ここから偶数番*/
 .right-title-box img{
