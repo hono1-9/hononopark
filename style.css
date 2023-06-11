@@ -191,7 +191,7 @@ nav a{
 }
 
 #attraction{
-    margin-bottom: 192px;
+    margin: 0 173px 192px 173px;
 }
 
 .icons{
@@ -205,11 +205,18 @@ nav a{
 
 }
 
+.section1-icon-top p{
+    font-size: 20px;
+}
+
 .section1-icon-bottom{
     text-align: center;
-   
     margin: 26px;
     margin-top: 100px;
+}
+
+.section1-icon-bottom p{
+    font-size: 20px;
 }
 
 
@@ -242,11 +249,16 @@ nav a{
 
 }
 
+.title-name p{
+    margin-top: 20px;
+    font-size: 40px;
+}
+
 .title{
     writing-mode: vertical-lr;
     font-size: 50px;
     text-orientation: upright; /*効いたけれど、若干ずれている縦書き*/
-    letter-spacing: 1.4rem;
+    letter-spacing: 1rem;
     position: relative;
 }
 
@@ -317,6 +329,10 @@ nav a{
 
 .s-point{
     text-align: center;
+}
+
+.s-point p{
+    font-size: 17px;
 }
 
 .star{
@@ -429,6 +445,11 @@ nav a{
     display: flex;
     justify-content: space-between;
 
+}
+
+.title-name-right p{
+    margin-top: 20px;
+    font-size: 40px;
 }
 
 .title{
