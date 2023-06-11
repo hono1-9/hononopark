@@ -261,25 +261,28 @@ nav a{
 }
 
 .left-title-box img{
-    position: relative; /*absolute?*/
+    position: relative;
     left:1129px;
-    text-align: center;
+    top: 55px;
 }
 
 .s-left-title h5{
     writing-mode: vertical-lr;
     font-size: 50px;
-    text-orientation: upright; /*効いたけれど、若干ずれている*/
+    text-orientation: upright; /*効いたけれど、若干ずれている縦書き*/
     letter-spacing: 1.4rem;
-    
+    /*position:relativeで、top21px,left1180したいけど効かない*/
 }
+
 
 .left-title-decoration{
     border: 0px solid;
     position: relative;
     left: 1196px;
+    top:-790px;/*変更前*/
+    /*思っていた場所と違うところに元々あるため、計算したtopだとずれてしまう*/
     opacity: 0.5;
-    top: -0px;
+    
     z-index: 0;
     height: 490px;
 }
