@@ -11,6 +11,10 @@ header{
     height:851px;
 }
 
+.sp-header{
+    display: none;
+}
+
 .bg-rect{
 	width: 483px;
 	height: 851px;
@@ -19,13 +23,26 @@ header{
     z-index:-1;
 }
 
+.sp-bg-rect{
+    display: none;
+}
 
+/* 
 header img{
     position:absolute;
     top:63px;
     left:363px;
     z-index: 1;
 }
+ */
+
+ .pc-header{
+    position:absolute;
+    top:63px;
+    left:363px;
+    z-index: 1;
+ }
+
 
 h2{
     writing-mode: vertical-rl;
@@ -90,6 +107,14 @@ h2{
     top:267px;
     left:103px;
 }
+
+/*hamburger*/
+
+#menu{
+    display: none;
+}
+
+/*hamburger*/
 
 nav{
     display:flex;
@@ -454,10 +479,6 @@ nav a{
     background-color: #fbfbfb;
 }
 
-
-
-
-
 /*ここまでモーダル中央寄せ*/
 
 /*モーダルの×の色*/
@@ -791,3 +812,211 @@ footer p{
     letter-spacing:2px;
     font-family: 'Roboto', sans-serif;
 }
+
+/**/
+@media screen and (max-width: 768px) {
+    .pc-header {
+      display: none;
+    }
+    .sp-header{
+        display: flex;
+        text-align: right;
+        width: 356px;
+        z-index: 1;
+      }
+    
+    .bg-rect{
+        display: none;
+    }
+    
+    .sp-bg-rect{
+        display: inline-block;
+        width: 301px;
+        height: 558px;
+        background-color: #95C3D7;
+        margin-top: 65px;
+    }
+
+    .h2-1{
+        position: absolute;
+        top: 104px;
+        left: 209px;
+        font-size: 25px;
+        z-index: 2;
+    }
+
+    .h2-2{
+        position: absolute;
+        top: 190px;
+        left: 162px;
+        font-size: 25px;
+        z-index: 2;
+    }
+
+    .decoration-rect1{
+        width: 2px;
+        height: 329px;
+        position: absolute;
+        top: 103px;
+        left: 200px;
+    }
+
+    .decoration-circle1{
+        width: 2px;
+        height: 2px;
+        position: absolute;
+        top: 434px;
+        left: 200px;
+    }
+
+    .decoration-rect2{
+        width: 2px;
+        height: 275px;
+        position: absolute;
+        top: 190px;
+        left: 154px;
+    }
+
+    .decoration-circle2{
+        width: 2px;
+        height: 2px;
+        position: absolute;
+        top: 186px;
+        left: 154px;
+    }
+
+    .header-nav{
+        display: none;
+    }
+
+    /*hamburger*/
+    /*hamburger*/
+
+    #attraction{
+        margin: 0 95px 22px 95px;
+    }
+
+    /*セクションタイトル装飾*/
+    .section-rec h3{
+        font-size: 17px;
+    }
+
+    .half-circle{
+        display: flex;
+        width: 50px;
+        height: 25px;
+        border:1px solid;
+        border-radius: 50% / 100% 100% 0 0;
+        background: #fff;
+        position: relative;
+        transform: translateX(-50%);
+        text-align: center;
+        justify-content:center;
+        align-items: center;
+    }
+    
+    .section-title .half-circle img{
+        text-align: center;
+        width: 25px;
+    }
+    
+    .section-title{
+        margin-bottom: 116px; /*最後に消す?*/
+        margin-top: 50px;
+    }
+    
+    .section-rec{
+        /*margin: -55px;*/
+        width: 200px;
+        height: 37px;
+        border: 1px solid #253d58;
+        border-radius: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        vertical-align: middle;
+        margin-top:-1px;
+    }
+    /*セクションタイトル装飾*/
+
+    .park-container{
+        width: 351px;
+    }
+
+    .lead p{
+        font-size: 12px;
+    }
+
+    .icon img{
+        width: 65px;
+    }
+
+    .title{
+        font-size: 20px;
+        letter-spacing: 0.5rem;
+    }
+
+    .title-name p{
+        font-size: 15px;
+    }
+
+    .modal-box h4{
+        font-size: 30px;
+    }
+
+    .left-location img{
+        width: 22px;
+    }
+
+    .modal-button img{
+        width: 230px;
+    }
+
+    .details-stars p{
+        font-size: 12px;
+    }
+
+    .bold{
+        font-size: 12px;
+    }
+
+    .details-stars img{
+        width: 100px;
+    }
+
+    .news img{
+        width: 230px;
+    } /*モーダルの中の画像の大きさ指定方法*/
+
+    .slr-photo img{
+        width: 144px;
+    }
+
+    .slr-photo p{
+        font-size: 10px;
+    }
+
+    .decoration img{
+        width: 200px;
+    }
+
+    .icon-right img{
+        width: 65px;
+    }
+
+    .title-name-right p{
+        font-size: 15px;
+    }
+
+    .right-location img{
+        width: 22px;
+    }
+
+    .banner{
+        margin-bottom: 0;
+    }
+
+    .info2{
+        margin-top: 30px;
+    }
+    }
+/**/
