@@ -820,13 +820,18 @@ footer p{
     }
     .sp-header{
         display: flex;
-        text-align: right;
-        width: 356px;
+        position: absolute;
+        top: 0;
+        right: 0;
         z-index: 1;
       }
     
     .bg-rect{
         display: none;
+    }
+
+    header{
+        height: 623px;
     }
     
     .sp-bg-rect{
@@ -859,6 +864,7 @@ footer p{
         position: absolute;
         top: 103px;
         left: 200px;
+        z-index: 3;
     }
 
     .decoration-circle1{
@@ -867,6 +873,7 @@ footer p{
         position: absolute;
         top: 434px;
         left: 200px;
+        z-index: 3;
     }
 
     .decoration-rect2{
@@ -875,6 +882,7 @@ footer p{
         position: absolute;
         top: 190px;
         left: 154px;
+        z-index: 3;
     }
 
     .decoration-circle2{
@@ -883,6 +891,7 @@ footer p{
         position: absolute;
         top: 186px;
         left: 154px;
+        z-index: 3;
     }
 
     .header-nav{
@@ -890,11 +899,45 @@ footer p{
     }
 
     /*hamburger*/
+    
     /*hamburger*/
 
     #attraction{
         margin: 0 95px 22px 95px;
     }
+
+    .section1-icon-top p{
+        font-size: 15px;
+    }
+
+    .section1-icon-bottom p{
+        font-size: 15px;
+    }
+
+    .section1-icon-top{
+        margin: 0;
+    }
+
+    .section1-icon-bottom{
+        margin: 0;
+    }
+
+    .icons{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    
+    .arrow::before {
+        display: none;
+      }
+    
+    .arrow.arrow-bottom::before {
+        transform: rotate(135deg);
+      }
+
+
 
     /*セクションタイトル装飾*/
     .section-rec h3{
@@ -938,6 +981,26 @@ footer p{
     }
     /*セクションタイトル装飾*/
 
+    .attraction img{
+        width: 145px;
+    }
+
+    #suggest{
+        margin: 0px 20px 192px 20px;
+    }
+
+    .icons-arrow{
+        display: flex;
+    }
+
+    .margin{
+        margin-top: 20px;
+    }
+
+    .icons-arrow img{
+        width: 75px;
+    }
+
     .park-container{
         width: 351px;
     }
@@ -957,6 +1020,7 @@ footer p{
 
     .title-name p{
         font-size: 15px;
+        margin-left: 50px;
     }
 
     .modal-box h4{
@@ -972,7 +1036,7 @@ footer p{
     }
 
     .details-stars p{
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .bold{
@@ -1005,6 +1069,7 @@ footer p{
 
     .title-name-right p{
         font-size: 15px;
+        margin-right: 50px;
     }
 
     .right-location img{
@@ -1017,6 +1082,75 @@ footer p{
 
     .info2{
         margin-top: 30px;
+    }
+
+    #caution{
+        margin: 0 30px 192px 30px;
+    }
+
+
+    .caution img{
+        width: 153px;
+    }
+
+    #season{
+        margin: 0 62px 192px 62px;
+    }
+
+    #japan{
+        margin: 0 62px 192px 62px;
+    }
+
+    .section45-icon{
+        width: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #last{
+        margin: 0 37px 60px 37px;
+    }
+
+    .last p{
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .section-title{
+        margin-bottom: 40px;
+    }
+
+    .info-title{
+        font-size: 20px;
+    }
+
+    .i-box{
+        height: 809px;
+    }
+
+    .i-infoes1{
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .i-infoes2{
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .park-name p{
+        font-size: 15px;
+    }
+
+    .i-infoes1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .i-infoes2{
+        display: flex;
+        flex-wrap: wrap;
     }
     }
 /**/

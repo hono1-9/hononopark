@@ -16,7 +16,10 @@
     <script src="/js/modaal.min.js"></script>
     <script src="js/main.js"></script>
     <!-- ビューポートの設定 -->
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,minimum-scale=1.0"
+    />
     <title>おすすめの公園紹介サイト</title>
   </head>
 
@@ -61,11 +64,13 @@
           </li>
         </ul>
       </nav>
-    </header>
 
-    <!--hamburger-->
+      <!--hamburger-->
     
     <!--hamburger-->
+    </header>
+
+    
 
     <section class="attraction" id="attraction">
       <div class="section-title">
@@ -121,16 +126,23 @@
             <p>こどもが楽しい</p>
           </div>
           <div class="s-point">
-            <a href="#shoes"><img src="images/section2-shoes.png" alt="" /></a>
-            <p>運動ができる</p>
+            <div class="margin">
+              <a href="#shoes"
+                ><img src="images/section2-shoes.png" alt=""
+              /></a>
+              <p>運動ができる</p>
+            </div>
           </div>
           <div class="s-point">
+            <div class="margin">
             <a href="#photo"><img src="images/section2-photo.png" alt="" /></a>
             <p>写真を撮る</p>
+            </div>
           </div>
-          <div class="s-point">
+          <div class="s-point"><div class="margin">
             <a href="#sun"><img src="images/section2-sun.png" alt="" /></a>
             <p>1日中楽しめる</p>
+            </div>
           </div>
         </div>
         <div class="arrow arrow-bottom"></div>
@@ -784,7 +796,6 @@
 
       <!--ここから 写真-->
       <div class="park-container">
-        いい
         <div class="s-left">
           <div class="lead" id="photo">
             <p>
@@ -1188,7 +1199,7 @@
             /></a>
             <p class="bold">国営ひたち海浜公園</p>
             <p>茨城県</p>
-            <p>ネモフィラが綺麗</p>
+            <p>綺麗な青色</p>
           </div>
           <div class="section45-icon">
             <a
