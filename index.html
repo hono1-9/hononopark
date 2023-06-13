@@ -12,6 +12,27 @@
     />
     <link rel="stylesheet" href="modaal.min.css" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/site.webmanifest" />
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="/js/modaal.min.js"></script>
     <script src="js/main.js"></script>
@@ -66,11 +87,9 @@
       </nav>
 
       <!--hamburger-->
-    
-    <!--hamburger-->
-    </header>
 
-    
+      <!--hamburger-->
+    </header>
 
     <section class="attraction" id="attraction">
       <div class="section-title">
@@ -98,6 +117,26 @@
             <img src="images/section1-season.png" alt="" />
             <p>季節を感じる</p>
           </div>
+          <!--この書き方微妙-->
+          
+            <div class="section1-icons">
+              <img src="images/section1-relax.png" alt="" />
+              <p>のんびりする</p>
+            </div>
+            <div class="section1-icons">
+              <img src="images/section1-book.png" alt="" />
+              <p>ストレス解消</p>
+            </div>
+            <div class="section1-icons">
+              <img src="images/section1-free.png" alt="" />
+              <p>自由に過ごす</p>
+            </div>
+            <div class="section1-icons">
+              <img src="images/section1-season.png" alt="" />
+              <p>季節を感じる</p>
+            </div>
+          
+          <!--まで-->
         </div>
       </div>
     </section>
@@ -135,13 +174,16 @@
           </div>
           <div class="s-point">
             <div class="margin">
-            <a href="#photo"><img src="images/section2-photo.png" alt="" /></a>
-            <p>写真を撮る</p>
+              <a href="#photo"
+                ><img src="images/section2-photo.png" alt=""
+              /></a>
+              <p>写真を撮る</p>
             </div>
           </div>
-          <div class="s-point"><div class="margin">
-            <a href="#sun"><img src="images/section2-sun.png" alt="" /></a>
-            <p>1日中楽しめる</p>
+          <div class="s-point">
+            <div class="margin">
+              <a href="#sun"><img src="images/section2-sun.png" alt="" /></a>
+              <p>1日中楽しめる</p>
             </div>
           </div>
         </div>
@@ -164,7 +206,7 @@
                 <img src="images/bbq-title-icon.png" alt="" />
               </div>
               <div class="title-name">
-                <h5 class="title">BBQができる<span></span></h5>
+                <h5 class="title">BBQができる<span class="bbq-span"></span></h5>
                 <p class="name">昭和記念公園</p>
               </div>
             </div>
@@ -325,7 +367,9 @@
                 <img src="images/relax-title-icon.png" alt="" />
               </div>
               <div class="title-name-right">
-                <h5 class="title">のんびりできる<span></span></h5>
+                <h5 class="title">
+                  のんびりできる<span class="relax-span"></span>
+                </h5>
                 <p class="name">新宿御苑</p>
               </div>
             </div>
@@ -486,7 +530,9 @@
                 <img src="images/swing-title-icon.png" alt="" />
               </div>
               <div class="title-name">
-                <h5 class="title">子供が楽しい<span></span></h5>
+                <h5 class="title">
+                  子供が楽しい<span class="swing-span"></span>
+                </h5>
                 <p class="name">昭和記念公園</p>
               </div>
             </div>
@@ -647,7 +693,9 @@
                 <img src="images/shoes-title-icon.png" alt="" />
               </div>
               <div class="title-name-right">
-                <h5 class="title">運動ができる<span></span></h5>
+                <h5 class="title">
+                  運動ができる<span class="shoes-span"></span>
+                </h5>
                 <p class="name">駒沢オリンピック公園</p>
               </div>
             </div>
@@ -810,7 +858,9 @@
                 <img src="images/photo-title-icon.png" alt="" />
               </div>
               <div class="title-name">
-                <h5 class="title">写真を撮りたくなる<span></span></h5>
+                <h5 class="title">
+                  写真を撮りたくなる<span class="photo-span"></span>
+                </h5>
                 <p class="name">新宿御苑</p>
               </div>
             </div>
@@ -971,7 +1021,9 @@
                 <img src="images/sun-title-icon.png" alt="" />
               </div>
               <div class="title-name-right">
-                <h5 class="title">1日中楽しめる<span></span></h5>
+                <h5 class="title">
+                  1日中楽しめる<span class="sun-span"></span>
+                </h5>
                 <p class="name">井の頭公園</p>
               </div>
             </div>
@@ -1285,7 +1337,7 @@
               >
             </p>
           </div>
-          <div class="i-info1">
+          <div class="i-info1 mt">
             <p class="park-names">
               <span class="parkname-bold">運動ができる公園</span><br /><a
                 href="https://www.tokyo-park.or.jp/park/format/index040.html"
@@ -1302,7 +1354,7 @@
               >
             </p>
           </div>
-          <div class="i-info1">
+          <div class="i-info1 mt">
             <p class="park-names">
               <span class="parkname-bold">こどもが楽しい公園</span><br /><a
                 href="https://www.showakinen-koen.jp/"
@@ -1351,7 +1403,7 @@
               >
             </p>
           </div>
-          <div class="i-info2">
+          <div class="i-info2 mt">
             <p class="park-names">
               <span class="parkname-bold">季節ごとのおすすめ公園</span><br /><a
                 href="https://www.kensetsu.metro.tokyo.lg.jp/jimusho/toubuk/ueno/index_top.html"
@@ -1370,7 +1422,7 @@
               >
             </p>
           </div>
-          <div class="i-info2">
+          <div class="i-info2 mt">
             <p class="park-names">
               <span class="parkname-bold">都外のおすすめ公園</span><br /><a
                 href="https://hitachikaihin.jp/"

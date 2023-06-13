@@ -244,6 +244,10 @@ nav a{
     font-size: 20px;
 }
 
+.section1-icons{
+    display: none;
+}
+
 
 #suggest{
     margin: 0px 170px 192px 170px;
@@ -293,7 +297,6 @@ nav a{
 
 .title span{
     display: inline-block;
-    background-color: #D0AC7F;
     opacity: 0.5;
     width: 40%;
     height: 100%;
@@ -303,6 +306,30 @@ nav a{
     z-index: -1;
     border-radius: 3px;
 }
+
+.bbq-span{
+    background-color: #D0AC7F;
+}
+
+.relax-span{
+    background-color:  #D0E79D;
+}
+
+.swing-span{
+    background-color: #00AAEE;
+}
+
+.shoes-span{
+    background-color:  #FEDD50;
+}
+.photo-span{
+    background-color: #FF7B74;
+}
+
+.sun-span{
+    background-color:  #FF6100;
+}
+
 
 .name{
     writing-mode: vertical-rl;
@@ -729,8 +756,11 @@ nav a{
     font-size: 20px;
 }
 
+.info{
+    background-color:rgba(37,61,88,0.7);
+}
+
 .i-box{
-    background-color:rgba(37,61,88,0.7);/*opacity0.5は薄すぎて読みにくい*/
     height:604px;
 }
 
@@ -903,29 +933,35 @@ footer p{
     /*hamburger*/
 
     #attraction{
-        margin: 0 95px 22px 95px;
+        margin: 0 0px 22px 0px;
     }
 
-    .section1-icon-top p{
-        font-size: 15px;
-    }
-
-    .section1-icon-bottom p{
-        font-size: 15px;
-    }
 
     .section1-icon-top{
-        margin: 0;
+        display: none;
     }
 
     .section1-icon-bottom{
-        margin: 0;
+        display: none;
     }
+    
+    .section1-icons{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 30px;
+    
+    }
+
+    .section1-icons p{
+        font-size: 15px;
+    }
+    
 
     .icons{
         display: flex;
         flex-wrap: wrap;
-        margin: 0;
+        
     }
 
     
@@ -960,7 +996,7 @@ footer p{
     
     .section-title .half-circle img{
         text-align: center;
-        width: 25px;
+        width: 20px;
     }
     
     .section-title{
@@ -1031,6 +1067,18 @@ footer p{
         width: 22px;
     }
 
+    .left-location{
+        bottom: 10px;
+        right: 10px;
+        
+    }
+
+    .right-location{
+        bottom: 10px;
+        right: 10px;
+    }
+    
+
     .modal-button img{
         width: 230px;
     }
@@ -1047,9 +1095,50 @@ footer p{
         width: 100px;
     }
 
-    .news img{
-        width: 230px;
-    } /*モーダルの中の画像の大きさ指定方法*/
+    /*モーダル*/
+
+    .modaal-content-container{
+        text-align: center;
+        height: 500px;
+        width: 380px;
+        background-color: #fbfbfb;
+    }
+
+    .banner{
+        width: 300px;
+    }
+
+    .park-info{
+        width: 300px;
+        font-size: 12px;
+    }
+
+    .icons-modal{
+        width: 158px;
+        height: 30px;
+        text-align: left;
+    }
+
+    .icon-info{
+        margin-right: 0;
+        margin-left: 0;
+        text-align: center;
+        display: block;
+    }
+
+    .location-info{
+        margin-top: 20px;
+        width: 150px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .icon-info a{
+        font-size: 10px;
+        text-align: center;
+    }
+
+
 
     .slr-photo img{
         width: 144px;
@@ -1108,6 +1197,10 @@ footer p{
         align-items: center;
     }
 
+    .section45-icon p{
+        font-size: 12px;
+    }
+
     #last{
         margin: 0 37px 60px 37px;
     }
@@ -1121,36 +1214,52 @@ footer p{
         margin-bottom: 40px;
     }
 
+
     .info-title{
         font-size: 20px;
+        left: 26px;
+        top:45px;
     }
 
     .i-box{
         height: 809px;
+        margin-right: 26px;
+        margin-left: 26px;
     }
 
     .i-infoes1{
         margin-right: 0;
         margin-left: 0;
+        display: flex;
     }
 
     .i-infoes2{
         margin-right: 0;
         margin-left: 0;
+        margin-top:-50px ;
     }
 
-    .park-name p{
+    .park-names p{
+        font-size: 15px;
+    }
+
+    .parkname-bold{
         font-size: 15px;
     }
 
     .i-infoes1{
         display: flex;
         flex-wrap: wrap;
+        margin-bottom: 60px;
     }
 
     .i-infoes2{
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .mt{
+        margin-top: 10px;
     }
     }
 /**/
