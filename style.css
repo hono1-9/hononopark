@@ -1065,6 +1065,10 @@ nav.globalMenuSp ul li {
     }
     /*hamburger2*/
 
+    .heading{
+        margin: 5px;
+    }
+
     #attraction{
         margin: 0 20px 50px 20px;
     }
