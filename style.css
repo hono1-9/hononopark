@@ -263,7 +263,8 @@ nav a{
 
 /**/
 .s-left-title{
-    width: 200px;
+    /* width: 200px; */
+    width: 180px;
 }
 
 .group{
@@ -1177,10 +1178,11 @@ nav.globalMenuSp ul li {
     }
 
     .park-container{
-        /* width: 351px; */
+        width: 351px;
+        margin: 0 auto;
         /* margin-right: 10px;
         margin-left: 10px; */
-        width:90%;
+       
     }
 
     .lead p{
