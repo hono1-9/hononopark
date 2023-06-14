@@ -1198,7 +1198,8 @@ nav.globalMenuSp ul li {
     }
 
     .lead p{
-        font-size: 11px;
+        font-size: 12px;
+        margin-bottom: 20px;
     }
 
     .icon img{
