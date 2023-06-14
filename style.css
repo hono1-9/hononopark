@@ -36,6 +36,10 @@ header img{
 }
  */
 
+ .Menu{
+    display: none;
+ }
+
  .pc-header{
     position:absolute;
     top:63px;
@@ -853,7 +857,7 @@ footer p{
         position: absolute;
         top: 0;
         right: 0;
-        z-index: 1;
+        z-index: 0;
       }
     
     .bg-rect{
@@ -894,7 +898,7 @@ footer p{
         position: absolute;
         top: 103px;
         left: 200px;
-        z-index: 3;
+        z-index: 2;
     }
 
     .decoration-circle1{
@@ -903,7 +907,7 @@ footer p{
         position: absolute;
         top: 434px;
         left: 200px;
-        z-index: 3;
+        z-index: 2;
     }
 
     .decoration-rect2{
@@ -912,7 +916,7 @@ footer p{
         position: absolute;
         top: 190px;
         left: 154px;
-        z-index: 3;
+        z-index: 2;
     }
 
     .decoration-circle2{
@@ -921,16 +925,139 @@ footer p{
         position: absolute;
         top: 186px;
         left: 154px;
-        z-index: 3;
+        z-index: 2;
     }
 
     .header-nav{
         display: none;
     }
 
-    /*hamburger*/
-    
-    /*hamburger*/
+    /*hamburger2*/
+    .hamburger {
+        display : block;
+        position: fixed;
+        z-index : 3;
+        right : 13px;
+        top   : 12px;
+        width : 42px;
+        height: 42px;
+        cursor: pointer;
+        text-align: center;
+      }
+      .hamburger span {
+        display : block;
+        position: absolute;
+        width   : 30px;
+        height  : 2px ;
+        left    : 6px;
+        background : #253d58;
+        -webkit-transition: 0.3s ease-in-out;
+        -moz-transition   : 0.3s ease-in-out;
+        transition        : 0.3s ease-in-out;
+      }
+      .hamburger span:nth-child(1) {
+        top: 10px;
+      }
+      .hamburger span:nth-child(2) {
+        top: 20px;
+      }
+      .hamburger span:nth-child(3) {
+        top: 30px;
+      }
+      
+      /* ナビ開いてる時のボタン */
+      .hamburger.active {
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition     : all 0.3s ease-in-out;
+        transition        : all 0.3s ease-in-out;
+        -webkit-transition-delay: 0.6s;
+        -o-transition-delay     : 0.6s;
+        transition-delay        : 0.6s;
+        -webkit-transform: rotate(45deg);
+        -ms-transform    : rotate(45deg);
+        -o-transform     : rotate(45deg);
+        transform        : rotate(45deg);
+      }
+      .hamburger.active span:nth-child(2){
+        width: 0px;
+      }
+      .hamburger.active span:nth-child(1),
+      .hamburger.active span:nth-child(3){
+        background :#fff;
+        -webkit-transition-delay: 0.3s;
+        -o-transition-delay: 0.3s;
+        transition-delay: 0.3s;
+      }
+      .hamburger.active span:nth-child(1){
+        -webkit-transform: translateY(4px);
+        -ms-transform    : translateY(4px);
+        -o-transform     : translateY(4px);
+        transform        : translateY(4px);
+      }
+      
+      .hamburger.active span:nth-child(3){
+        -webkit-transform: translateY(-16px) rotate(90deg);
+        -ms-transform: translateY(-16px) rotate(90deg);
+        -o-transform : translateY(-16px) rotate(90deg);
+        transform    : translateY(-16px) rotate(90deg);
+      }
+      
+      
+      nav.globalMenuSp {
+        position: fixed;
+        z-index : 2;
+        top  : 0;
+        left : 0;
+        color: #fff;
+        background: rgba(37,61,88,0.7);
+        text-align: center;
+        width: 100%;
+        opacity: 0;
+        transition: opacity .6s ease, visibility .6s ease;
+        height: 623px;
+      }
+      
+      nav.globalMenuSp ul {
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+      }
+      
+      nav.globalMenuSp ul li {
+        list-style-type: none;
+        padding: 0;
+        width: 100%;
+        transition: .4s all;
+      }
+      nav.globalMenuSp ul li:last-child {
+        padding-bottom: 0;
+      }
+      nav.globalMenuSp ul li:hover{
+        color :#253d58;
+        
+      }
+      
+      nav.globalMenuSp ul li a {
+        display: block;
+        color: #fff;
+        padding: 1em 0;
+        text-decoration :none;
+      }
+      
+      /* このクラスを、jQueryで付与・削除する */
+      nav.globalMenuSp.active {
+        opacity: 100;
+      
+      }
+
+    nav ul{
+        flex-wrap: wrap;
+    }
+
+    nav li{
+        margin: 0;
+    }
+    /*hamburger2*/
 
     #attraction{
         margin: 0 0px 22px 0px;
@@ -1217,7 +1344,7 @@ footer p{
 
     .info-title{
         font-size: 20px;
-        left: 26px;
+        left: 0px;
         top:45px;
     }
 

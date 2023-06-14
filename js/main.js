@@ -14,6 +14,24 @@ $(function($){
         return false;
     })
 
+    $(function() {
+        $('.hamburger').click(function() {
+            $(this).toggleClass('active');
+     
+            if ($(this).hasClass('active')) {
+                $('.globalMenuSp').addClass('active');
+            } else {
+                $('.globalMenuSp').removeClass('active');
+            }
+        });
+    });
+
+    $('a[href^="#"]').on('click', function() {
+        $('.hamburger').click(); // .menuを
+  
+        return false; //a要素のリンク先移動防ぐ
+      });
+
     
 
     
