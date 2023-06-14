@@ -958,9 +958,12 @@ nav.globalMenuSp ul li {
         top   : 12px;
         width : 42px;
         height: 42px;
+       
         cursor: pointer;
         text-align: center;
       }
+
+
       .hamburger span {
         display : block;
         position: absolute;
@@ -1028,7 +1031,7 @@ nav.globalMenuSp ul li {
         color: #fff;
         background: rgba(37,61,88,0.7);
         text-align: center;
-        width: 100%;
+        width: 0%;
         opacity: 0;
         transition: opacity .6s ease, visibility .6s ease;
         height: 623px;
@@ -1066,6 +1069,8 @@ nav.globalMenuSp ul li {
       /* このクラスを、jQueryで付与・削除する */
       nav.globalMenuSp.active {
         opacity: 100;
+        width: 100%;
+        transition: opacity 1.6s ease, width 0s; /* 追加 開く時のアニメーション */
       
       }
 
