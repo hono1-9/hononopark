@@ -7,10 +7,16 @@
     color: #253d58;
 }
 
+/*横スクロース防止*/
 html{
     overflow-x: hidden; 
   overflow-y: scroll; -webkit-overflow-scrolling: touch
 
+}
+
+/*横揺れ防止*/
+img{
+    max-width: 100%;
 }
 
 header{
