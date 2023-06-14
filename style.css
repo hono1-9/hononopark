@@ -1160,7 +1160,8 @@ nav.globalMenuSp ul li {
     }
 
     #suggest{
-        margin: 0px 20px 192px 20px;
+        /* margin: 0px 20px 192px 20px; */
+        margin: 0px 0px 192px 0px;
     }
 
     .icons-arrow{
@@ -1177,8 +1178,9 @@ nav.globalMenuSp ul li {
 
     .park-container{
         /* width: 351px; */
-        margin-right: 10px;
-        margin-left: 10px;
+        /* margin-right: 10px;
+        margin-left: 10px; */
+        width:90%;
     }
 
     .lead p{
