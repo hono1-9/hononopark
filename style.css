@@ -7,6 +7,12 @@
     color: #253d58;
 }
 
+html{
+    overflow-x: hidden; 
+  overflow-y: scroll; -webkit-overflow-scrolling: touch
+
+}
+
 header{
     height:851px;
 }
