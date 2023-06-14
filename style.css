@@ -847,6 +847,10 @@ footer p{
     font-family: 'Roboto', sans-serif;
 }
 
+nav.globalMenuSp ul li {
+    display: none;
+  }
+
 /**/
 @media screen and (max-width: 768px) {
     .pc-header {
@@ -1024,6 +1028,8 @@ footer p{
       }
       
       nav.globalMenuSp ul li {
+        display: flex;
+        justify-content: center;
         list-style-type: none;
         padding: 0;
         width: 100%;
