@@ -1174,7 +1174,7 @@ nav.globalMenuSp ul li {
 
     #suggest{
         /* margin: 0px 20px 192px 20px; */
-        margin: 0px 0px 192px 0px;
+        margin: 0px 0px 50px 0px;
     }
 
     .icons-arrow{
@@ -1334,7 +1334,7 @@ nav.globalMenuSp ul li {
     }
 
     #caution{
-        margin: 0 30px 50px 30px;
+        margin: 0 10px 50px 10px;
     }
 
 
