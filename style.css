@@ -1264,6 +1264,7 @@ nav.globalMenuSp ul li {
         height: 500px;
         width: 320px;
         background-color: #fbfbfb;
+        margin: 0 auto;
     }
 
     .banner{

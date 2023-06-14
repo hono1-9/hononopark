@@ -26,12 +26,12 @@ $(function($){
         });
     });
 
-    $('a[href^="#"]').on('click', function() {
-        $('.hamburger').click(); // .menuを
+    // $('a[href^="#"]').on('click', function() {
+    //     $('.hamburger').click(); // .menuを
   
-        return false; //a要素のリンク先移動防ぐ
-      });
-
+    //     return false; //a要素のリンク先移動防ぐ
+    //   });
+        // これなくすとハンバーガー閉じない
     
 
     
