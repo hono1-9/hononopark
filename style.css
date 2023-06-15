@@ -949,6 +949,10 @@ nav.globalMenuSp ul li {
         display: none;
     }
 
+    .marker{
+        display: none;
+    }
+
     /*hamburger2*/
     .hamburger {
         display : block;
@@ -1033,7 +1037,7 @@ nav.globalMenuSp ul li {
         text-align: center;
         width: 0%;
         opacity: 0;
-        transition: opacity .6s ease, visibility .6s ease;
+        /* transition: opacity .6s ease, visibility .6s ease; */
         height: 623px;
       }
       
@@ -1070,7 +1074,7 @@ nav.globalMenuSp ul li {
       nav.globalMenuSp.active {
         opacity: 100;
         width: 100%;
-        transition: opacity 1.6s ease, width 0s; /* 追加 開く時のアニメーション */
+        /* transition: opacity 1.6s ease, width 0s; 追加 開く時のアニメーション */
       
       }
 
