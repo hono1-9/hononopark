@@ -1433,5 +1433,9 @@ nav.globalMenuSp ul li {
     .mt{
         margin-top: 10px;
     }
+
+    .i-box a{
+        font-size: 15px;
+    }
     }
 /**/
