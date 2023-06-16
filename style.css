@@ -232,12 +232,13 @@ nav a{
 }
 
 #attraction{
-    margin: 0 173px 192px 173px;
+    /* margin: 0 173px 192px 173px; */
 }
 
 .icons{
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    justify-content:space-evenly;
 }
 
 .section1-icon-top{
@@ -730,7 +731,7 @@ nav a{
 }
 
 #caution{
-    margin: 0 328px 192px 328px;
+    /* margin: 0 328px 192px 328px; */
 }
 
 .c-point{
@@ -740,7 +741,7 @@ nav a{
 }
 
 #season{
-    margin: 0 240px 192px 240px;
+    /* margin: 0 240px 192px 240px; */
 }
 
 /*.section45-iconはグルーピングのse-pointとj-pointの役割*/
@@ -748,6 +749,7 @@ nav a{
     text-align: center;
     margin: 82px;
 }
+
 
 .section45-icon p{
     line-height: 2;
@@ -760,8 +762,10 @@ nav a{
 
 
 #japan{
-    margin: 0 250px 192px 250px;
+    /* margin: 0 250px 192px 250px; */
 }
+
+
 
 #last{
     margin-bottom: 192px;
@@ -1201,6 +1205,8 @@ nav.globalMenuSp ul li {
     .park-container{
         width: 320px;
         margin: 0 auto;
+        display: flex;
+        justify-content: center;
         /* margin-right: 10px;
         margin-left: 10px; */
        
@@ -1367,6 +1373,7 @@ nav.globalMenuSp ul li {
         flex-direction: column;
         align-items: center;
         margin: 5px;
+        text-align: center;
     }
 
     .section45-icon p{
