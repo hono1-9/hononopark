@@ -913,6 +913,8 @@ nav.globalMenuSp ul li {
         z-index: 2;
     }
 
+   
+
     .decoration-rect1{
         width: 2px;
         height: 329px;
@@ -920,6 +922,7 @@ nav.globalMenuSp ul li {
         top: 103px;
         left: 200px;
         z-index: 2;
+        border: #fbfbfb;
     }
 
     .decoration-circle1{
@@ -938,6 +941,7 @@ nav.globalMenuSp ul li {
         top: 190px;
         left: 154px;
         z-index: 2;
+        border: #fbfbfb;
     }
 
     .decoration-circle2{
