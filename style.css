@@ -1205,8 +1205,6 @@ nav.globalMenuSp ul li {
     .park-container{
         width: 320px;
         margin: 0 auto;
-        display: flex;
-        justify-content: center;
         /* margin-right: 10px;
         margin-left: 10px; */
        
@@ -1228,7 +1226,9 @@ nav.globalMenuSp ul li {
 
     .title-name p{
         font-size: 15px;
-        margin-left: 50px;
+        /* margin-left: 50px; */
+        margin-right: 10px;
+        margin-left: 40px;
     }
 
     .modal-box h4{
@@ -1335,7 +1335,19 @@ nav.globalMenuSp ul li {
 
     .title-name-right p{
         font-size: 15px;
-        margin-right: 50px;
+        /* margin-right: 50px; */
+        margin-left: 10px;
+        margin-right: 40px;
+    }
+
+    
+
+    .s-right-title{
+        width: auto;
+    }
+
+    .s-left-title{
+        width: auto;
     }
 
     .right-location img{
